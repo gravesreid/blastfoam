@@ -1,0 +1,160 @@
+Invalid MIT-MAGIC-COOKIE-1 key/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : setRefinedFields -parallel
+Date   : Jan 15 2025
+Time   : 16:54:51
+Host   : "mail-18"
+PID    : 154326
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop
+nProcs : 6
+Slaves : 
+5
+(
+"mail-18.154327"
+"mail-18.154328"
+"mail-18.154329"
+"mail-18.154330"
+"mail-18.154331"
+)
+
+Pstream initialised with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading "setFieldsDict"
+
+Selecting fvMeshRefiner hexRefiner
+Setting field default values
+    Setting alpha.c4
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.114246
+--> FOAM Warning : 
+    From function void Foam::massToCell::checkMass(const labelHashSet&, const Foam::polyMesh&) const
+    in file sets/cellSources/massToCell/massToCell.C at line 53
+    Requested mass is 10 but set mass is 0, 100% different
+
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.75
+    Selected 18 cells, 97 faces, 87 points
+    Set volume of cell: 1.3 m^3
+    Setting alpha.c4
+
+Selected 246 cells for refinement out of 18330.
+Refined from 18330 to 20052 cells.
+Selected 0 split points out of a possible 246.
+Maximum imbalance = 24.0575 %
+[0] Selecting decompositionMethod scotch
+[5] Selecting decompositionMethod scotch
+[1] Selecting decompositionMethod scotch
+[2] Selecting decompositionMethod scotch
+[3] Selecting decompositionMethod scotch
+[4] Selecting decompositionMethod scotch
+Selecting decompositionConstraint hexRefRefinementHistory
+hexRefRefinementHistory : setting constraints to preserve refinement history
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.95751%
+Distributing ...
+Setting field default values
+    Setting alpha.c4
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.114246
+--> FOAM Warning : 
+    From function void Foam::massToCell::checkMass(const labelHashSet&, const Foam::polyMesh&) const
+    in file sets/cellSources/massToCell/massToCell.C at line 53
+    Requested mass is 10 but set mass is 0, 100% different
+
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.75
+    Selected 180 cells, 727 faces, 423 points
+    Set volume of cell: 1.6425 m^3
+    Setting alpha.c4
+
+Selected 851 cells for refinement out of 20052.
+Refined from 20052 to 26009 cells.
+Selected 0 split points out of a possible 950.
+Maximum imbalance = 80.5375 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 1.01119%
+Distributing ...
+Setting field default values
+    Setting alpha.c4
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.114246
+--> FOAM Warning : 
+    From function void Foam::massToCell::checkMass(const labelHashSet&, const Foam::polyMesh&) const
+    in file sets/cellSources/massToCell/massToCell.C at line 53
+    Requested mass is 10 but set mass is 16.01, 60.1% different
+
+    Selected 8 cells, 36 faces, 27 points
+    Set volume of cell: 0.01 m^3
+    Setting alpha.c4
+
+Selected 160 cells for refinement out of 26009.
+Refined from 26009 to 27129 cells.
+Selected 512 split points out of a possible 1078.
+Unrefined from 27129 to 23545 cells.
+Maximum imbalance = 11.5736 %
+Setting field default values
+    Setting alpha.c4
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.114246
+    Selected 40 cells, 160 faces, 93 points
+    Set volume of cell: 0.00625 m^3
+    Setting alpha.c4
+
+Selected 0 cells for refinement out of 23545.
+Selected 55 split points out of a possible 635.
+Unrefined from 23545 to 23160 cells.
+Maximum imbalance = 13.1865 %
+Setting field default values
+    Setting alpha.c4
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.114246
+    Selected 40 cells, 160 faces, 93 points
+    Set volume of cell: 0.00625 m^3
+    Setting alpha.c4
+
+Selected 0 cells for refinement out of 23160.
+Selected 0 split points out of a possible 580.
+Maximum imbalance = 13.1865 %
+Setting field default values
+    Setting alpha.c4
+
+Setting field region values
+    Adding cells with centre within sphere, with centre = (1 0 0.5) and radius = 0.114246
+    Selected 40 cells, 160 faces, 93 points
+    Set volume of cell: 0.00625 m^3
+    Setting alpha.c4
+
+
+End
+
+ExecutionTime = 0.59 s  ClockTime = 1 s
+
+Finalising parallel run

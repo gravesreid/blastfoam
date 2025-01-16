@@ -1,0 +1,7394 @@
+Invalid MIT-MAGIC-COOKIE-1 key/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : blastFoam -parallel
+Date   : Jan 15 2025
+Time   : 09:22:48
+Host   : "mail-18"
+PID    : 111014
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D
+nProcs : 4
+Slaves : 
+3
+(
+"mail-18.111015"
+"mail-18.111016"
+"mail-18.111017"
+)
+
+Pstream initialised with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh adaptiveFvMesh
+Selecting errorEstimator: densityGradient
+Selecting fvMeshRefiner hexRefiner
+
+Reading g
+Selecting timeIntegrator: RK2SSP
+Reading phaseProperties dictionary
+
+Selecting thermodynamics package phaseFluid<detonating<const<eConst<Murnaghan<specie>>>,const<eConst<JWL<specie>>>>>
+Selecting activationModel: pressureBased
+Initiation Points: 
+    1((0 0 1))
+Delays: 
+    1(0)
+Radii: 
+    1(0.05)
+reactants
+Selecting afterburnModel: none
+Selecting thermodynamics package phaseFluid<basic<const<eConst<idealGas<specie>>>>>
+Selecting univariate root solver: NewtonRaphson
+Selecting univariate root solver: NewtonRaphson
+Selecting fluxScheme: Tadmor
+
+Starting time loop
+
+Courant Number Mean/Max = 0.000234065, 0.00601446
+deltaT = 1.19904e-07
+Time = 1.19904076739e-07
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.3404e+07, min(p): 101298
+max(T): 4057.1, min(T): 287.926
+ExecutionTime = 0.12 s  ClockTime = 0 s
+
+Courant Number Mean/Max = 0.000281728, 0.00725216
+deltaT = 1.43747e-07
+Time = 2.63650750869e-07
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.31252e+07, min(p): 101298
+max(T): 4634.77, min(T): 287.926
+ExecutionTime = 0.18 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.000338463, 0.00879296
+deltaT = 1.72098e-07
+Time = 4.35748845157e-07
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.27943e+07, min(p): 101298
+max(T): 5097.43, min(T): 287.926
+ExecutionTime = 0.24 s  ClockTime = 1 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Courant Number Mean/Max = 0.000405746, 0.010577
+deltaT = 2.06518e-07
+Time = 6.42266558302e-07
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.24012e+07, min(p): 101298
+max(T): 5245.88, min(T): 287.926
+ExecutionTime = 0.3 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.000487249, 0.0127027
+deltaT = 2.46789e-07
+Time = 8.8905522551e-07
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.19372e+07, min(p): 101298
+max(T): 5251.01, min(T): 287.926
+ExecutionTime = 0.36 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00058262, 0.0151935
+deltaT = 2.95849e-07
+Time = 1.18490429042e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.13889e+07, min(p): 101298
+max(T): 5199.67, min(T): 287.926
+ExecutionTime = 0.42 s  ClockTime = 1 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Courant Number Mean/Max = 0.000698882, 0.0182319
+deltaT = 3.53733e-07
+Time = 1.53863686802e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.07448e+07, min(p): 101298
+max(T): 5124.37, min(T): 287.926
+ExecutionTime = 0.49 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.000836192, 0.0218229
+deltaT = 4.21403e-07
+Time = 1.96004002569e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.99933e+07, min(p): 101298
+max(T): 5035.98, min(T): 287.926
+ExecutionTime = 0.55 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.000996939, 0.0260287
+deltaT = 5.05684e-07
+Time = 2.4657238149e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.9114e+07, min(p): 101298
+max(T): 4959.78, min(T): 287.926
+ExecutionTime = 0.61 s  ClockTime = 1 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Maximum imbalance = 8.94398 %
+Courant Number Mean/Max = 0.00119741, 0.0312748
+deltaT = 6.017e-07
+Time = 3.06742351344e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.80985e+07, min(p): 101298
+max(T): 4878.56, min(T): 287.926
+ExecutionTime = 0.67 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00142624, 0.037263
+deltaT = 7.2204e-07
+Time = 3.7894631517e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.69223e+07, min(p): 101298
+max(T): 4779.42, min(T): 287.926
+ExecutionTime = 0.73 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00171355, 0.0447766
+deltaT = 8.55751e-07
+Time = 4.64521383407e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.55856e+07, min(p): 101298
+max(T): 4663.56, min(T): 287.926
+ExecutionTime = 0.8 s  ClockTime = 1 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Courant Number Mean/Max = 0.00203369, 0.0531381
+deltaT = 1.00788e-06
+Time = 5.65309797109e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.40866e+07, min(p): 101298
+max(T): 4526.38, min(T): 287.926
+ExecutionTime = 0.87 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00239904, 0.0626609
+deltaT = 1.19856e-06
+Time = 6.85166289079e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.24038e+07, min(p): 101298
+max(T): 4367.03, min(T): 287.926
+ExecutionTime = 0.92 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00285812, 0.0745885
+deltaT = 1.43828e-06
+Time = 8.28994079443e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.05175e+07, min(p): 101298
+max(T): 4180.85, min(T): 287.926
+ExecutionTime = 0.98 s  ClockTime = 1 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Courant Number Mean/Max = 0.00343699, 0.0900503
+deltaT = 1.6684e-06
+Time = 9.95834316266e-06
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.86775e+07, min(p): 101298
+max(T): 3975.3, min(T): 287.926
+ExecutionTime = 1.04 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00399627, 0.105349
+deltaT = 2.00208e-06
+Time = 1.19604260045e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.68204e+07, min(p): 101298
+max(T): 3744.95, min(T): 287.926
+ExecutionTime = 1.1 s  ClockTime = 1 s
+
+Courant Number Mean/Max = 0.00480858, 0.12745
+deltaT = 2.37747e-06
+Time = 1.43378993792e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.47837e+07, min(p): 101298
+max(T): 3636.63, min(T): 287.926
+ExecutionTime = 1.16 s  ClockTime = 2 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Maximum imbalance = 8.94398 %
+Courant Number Mean/Max = 0.00572824, 0.152433
+deltaT = 2.74324e-06
+Time = 1.70811378885e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.26434e+07, min(p): 101298
+max(T): 3656.52, min(T): 287.926
+ExecutionTime = 1.22 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.00663346, 0.176836
+deltaT = 3.29189e-06
+Time = 2.03730240997e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.03436e+07, min(p): 101298
+max(T): 3574.84, min(T): 287.926
+ExecutionTime = 1.28 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.00799476, 0.212862
+deltaT = 3.70337e-06
+Time = 2.40763960872e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.80671e+07, min(p): 101298
+max(T): 3430.75, min(T): 287.926
+ExecutionTime = 1.34 s  ClockTime = 2 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Courant Number Mean/Max = 0.00903826, 0.23935
+deltaT = 4.3206e-06
+Time = 2.83969967393e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.57723e+07, min(p): 101298
+max(T): 3257.37, min(T): 287.926
+ExecutionTime = 1.41 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0106045, 0.278015
+deltaT = 4.3206e-06
+Time = 3.27175973915e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.38078e+07, min(p): 101298
+max(T): 3306.56, min(T): 287.926
+ExecutionTime = 1.47 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0106636, 0.280276
+deltaT = 4.3206e-06
+Time = 3.70381980436e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.27816e+07, min(p): 101298
+max(T): 3337.01, min(T): 287.926
+ExecutionTime = 1.53 s  ClockTime = 2 s
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Courant Number Mean/Max = 0.0107231, 0.280999
+deltaT = 4.3206e-06
+Time = 4.13587986957e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.19908e+07, min(p): 101298
+max(T): 3244.18, min(T): 287.926
+ExecutionTime = 1.59 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0107834, 0.28053
+deltaT = 4.3206e-06
+Time = 4.56793993479e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.15353e+07, min(p): 101298
+max(T): 3177.74, min(T): 287.926
+ExecutionTime = 1.65 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0108455, 0.279178
+deltaT = 4.3206e-06
+Time = 5e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.15904e+07, min(p): 101298
+max(T): 3164.36, min(T): 287.926
+ExecutionTime = 1.71 s  ClockTime = 2 s
+
+Selected 20 cells for refinement out of 9157.
+Refined from 9157 to 9297 cells.
+Selected 0 split points out of a possible 528.
+Maximum imbalance = 7.30343 %
+Courant Number Mean/Max = 0.0109194, 0.280854
+deltaT = 5e-06
+Time = 5.5e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.12649e+07, min(p): 101298
+max(T): 3166.15, min(T): 287.926
+ExecutionTime = 1.8 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0127202, 0.326397
+deltaT = 5.625e-06
+Time = 6.0625e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.05297e+07, min(p): 101298
+max(T): 3195.51, min(T): 287.926
+ExecutionTime = 1.86 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0144159, 0.36643
+deltaT = 5.625e-06
+Time = 6.625e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.01322e+07, min(p): 101298
+max(T): 3138.55, min(T): 287.926
+ExecutionTime = 1.92 s  ClockTime = 2 s
+
+Selected 140 cells for refinement out of 9297.
+Refined from 9297 to 10277 cells.
+Selected 0 split points out of a possible 628.
+Courant Number Mean/Max = 0.0146919, 0.366124
+deltaT = 5.625e-06
+Time = 7.1875e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.01169e+07, min(p): 101298
+max(T): 3267.96, min(T): 287.926
+ExecutionTime = 2.02 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0147982, 0.369011
+deltaT = 5.625e-06
+Time = 7.75e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.72711e+06, min(p): 101298
+max(T): 3422.94, min(T): 287.926
+ExecutionTime = 2.09 s  ClockTime = 2 s
+
+Courant Number Mean/Max = 0.0149069, 0.369102
+deltaT = 5.625e-06
+Time = 8.3125e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.06005e+06, min(p): 101298
+max(T): 3492.03, min(T): 287.926
+ExecutionTime = 2.15 s  ClockTime = 3 s
+
+Selected 104 cells for refinement out of 10277.
+Refined from 10277 to 11005 cells.
+Selected 0 split points out of a possible 732.
+Courant Number Mean/Max = 0.0150901, 0.367107
+deltaT = 5.625e-06
+Time = 8.875e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.4337e+06, min(p): 101298
+max(T): 3520.44, min(T): 287.926
+ExecutionTime = 2.27 s  ClockTime = 3 s
+
+Courant Number Mean/Max = 0.0151971, 0.363632
+deltaT = 5.625e-06
+Time = 9.4375e-05
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.46942e+06, min(p): 101298
+max(T): 3514.32, min(T): 287.926
+ExecutionTime = 2.36 s  ClockTime = 3 s
+
+Courant Number Mean/Max = 0.0153044, 0.362799
+deltaT = 5.625e-06
+Time = 0.0001
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.19764e+06, min(p): 101298
+max(T): 3466.84, min(T): 287.926
+ExecutionTime = 2.44 s  ClockTime = 3 s
+
+Selected 20 cells for refinement out of 11005.
+Refined from 11005 to 11145 cells.
+Selected 0 split points out of a possible 752.
+Maximum imbalance = 5.66173 %
+Courant Number Mean/Max = 0.0154269, 0.362899
+deltaT = 6.25e-06
+Time = 0.00010625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.63819e+06, min(p): 101298
+max(T): 3487.77, min(T): 287.926
+ExecutionTime = 2.55 s  ClockTime = 3 s
+
+Courant Number Mean/Max = 0.0172741, 0.400901
+deltaT = 6.25e-06
+Time = 0.0001125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.46543e+06, min(p): 101298
+max(T): 3462.01, min(T): 287.926
+ExecutionTime = 2.68 s  ClockTime = 3 s
+
+Courant Number Mean/Max = 0.0174062, 0.396813
+deltaT = 6.25e-06
+Time = 0.00011875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.41342e+06, min(p): 101298
+max(T): 3490.72, min(T): 287.926
+ExecutionTime = 2.78 s  ClockTime = 3 s
+
+Selected 192 cells for refinement out of 11145.
+Refined from 11145 to 12489 cells.
+Selected 0 split points out of a possible 924.
+Courant Number Mean/Max = 0.0177893, 0.397604
+deltaT = 6.25e-06
+Time = 0.000125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.08751e+06, min(p): 101298
+max(T): 3463.68, min(T): 287.926
+ExecutionTime = 2.91 s  ClockTime = 3 s
+
+Courant Number Mean/Max = 0.0179219, 0.396904
+deltaT = 6.25e-06
+Time = 0.00013125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.28852e+06, min(p): 101298
+max(T): 3450.78, min(T): 287.926
+ExecutionTime = 3 s  ClockTime = 3 s
+
+Courant Number Mean/Max = 0.018054, 0.394185
+deltaT = 6.25e-06
+Time = 0.0001375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.62383e+06, min(p): 101298
+max(T): 3484.59, min(T): 287.926
+ExecutionTime = 3.09 s  ClockTime = 3 s
+
+Selected 72 cells for refinement out of 12489.
+Refined from 12489 to 12993 cells.
+Selected 0 split points out of a possible 984.
+Courant Number Mean/Max = 0.0182425, 0.392258
+deltaT = 6.25e-06
+Time = 0.00014375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.91067e+06, min(p): 101298
+max(T): 3462.64, min(T): 287.926
+ExecutionTime = 3.21 s  ClockTime = 4 s
+
+Courant Number Mean/Max = 0.0183727, 0.393222
+deltaT = 6.25e-06
+Time = 0.00015
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.24156e+06, min(p): 101298
+max(T): 3482.77, min(T): 287.926
+ExecutionTime = 3.32 s  ClockTime = 4 s
+
+Courant Number Mean/Max = 0.0185028, 0.391753
+deltaT = 6.25e-06
+Time = 0.00015625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.50722e+06, min(p): 101298
+max(T): 3506.99, min(T): 287.926
+ExecutionTime = 3.41 s  ClockTime = 4 s
+
+Selected 112 cells for refinement out of 12993.
+Refined from 12993 to 13777 cells.
+Selected 0 split points out of a possible 1096.
+Maximum imbalance = 17.1953 %
+Courant Number Mean/Max = 0.0187617, 0.388624
+deltaT = 6.25e-06
+Time = 0.0001625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.68906e+06, min(p): 101298
+max(T): 3487.36, min(T): 287.926
+ExecutionTime = 3.55 s  ClockTime = 4 s
+
+Courant Number Mean/Max = 0.0188917, 0.384275
+deltaT = 6.25e-06
+Time = 0.00016875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.81277e+06, min(p): 101298
+max(T): 3467.97, min(T): 287.926
+ExecutionTime = 3.67 s  ClockTime = 4 s
+
+Courant Number Mean/Max = 0.019021, 0.382958
+deltaT = 6.25e-06
+Time = 0.000175
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.03613e+06, min(p): 101298
+max(T): 3525.27, min(T): 287.926
+ExecutionTime = 3.77 s  ClockTime = 4 s
+
+Selected 150 cells for refinement out of 13777.
+Refined from 13777 to 14827 cells.
+Selected 0 split points out of a possible 1230.
+Courant Number Mean/Max = 0.0192989, 0.381938
+deltaT = 6.25e-06
+Time = 0.00018125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.24865e+06, min(p): 101298
+max(T): 3528.71, min(T): 287.926
+ExecutionTime = 3.92 s  ClockTime = 4 s
+
+Courant Number Mean/Max = 0.0194257, 0.379318
+deltaT = 6.25e-06
+Time = 0.0001875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.37696e+06, min(p): 101298
+max(T): 3499, min(T): 287.926
+ExecutionTime = 4.04 s  ClockTime = 4 s
+
+Courant Number Mean/Max = 0.0195525, 0.375581
+deltaT = 6.25e-06
+Time = 0.00019375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.55974e+06, min(p): 101298
+max(T): 3531.97, min(T): 287.926
+ExecutionTime = 4.15 s  ClockTime = 5 s
+
+Selected 84 cells for refinement out of 14827.
+Refined from 14827 to 15415 cells.
+Selected 0 split points out of a possible 1290.
+Courant Number Mean/Max = 0.0197468, 0.373733
+deltaT = 6.25e-06
+Time = 0.0002
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.73857e+06, min(p): 101298
+max(T): 3561.23, min(T): 287.926
+ExecutionTime = 4.32 s  ClockTime = 5 s
+
+Courant Number Mean/Max = 0.0198724, 0.373222
+deltaT = 6.25e-06
+Time = 0.00020625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.82525e+06, min(p): 101298
+max(T): 3553.07, min(T): 287.926
+ExecutionTime = 4.43 s  ClockTime = 5 s
+
+Courant Number Mean/Max = 0.0199966, 0.371115
+deltaT = 6.25e-06
+Time = 0.0002125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.84712e+06, min(p): 101298
+max(T): 3531.92, min(T): 287.926
+ExecutionTime = 4.55 s  ClockTime = 5 s
+
+Selected 78 cells for refinement out of 15415.
+Refined from 15415 to 15961 cells.
+Selected 0 split points out of a possible 1352.
+Maximum imbalance = 29.7914 %
+[2] Selecting decompositionMethod scotch
+[3] Selecting decompositionMethod scotch
+[0] Selecting decompositionMethod scotch
+Selecting decompositionConstraint hexRefRefinementHistory
+hexRefRefinementHistory : setting constraints to preserve refinement history
+hexRefRefinementHistory : found refinementHistory
+[1] Selecting decompositionMethod scotch
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.169162%
+Distributing ...
+Courant Number Mean/Max = 0.0201835, 0.367897
+deltaT = 6.25e-06
+Time = 0.00021875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.83099e+06, min(p): 101298
+max(T): 3549.65, min(T): 287.926
+ExecutionTime = 4.8 s  ClockTime = 5 s
+
+Courant Number Mean/Max = 0.0203077, 0.365929
+deltaT = 6.25e-06
+Time = 0.000225
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.99874e+06, min(p): 101298
+max(T): 3585.84, min(T): 287.926
+ExecutionTime = 4.91 s  ClockTime = 5 s
+
+Courant Number Mean/Max = 0.0204311, 0.365664
+deltaT = 6.25e-06
+Time = 0.00023125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.00815e+07, min(p): 101298
+max(T): 3583.64, min(T): 287.926
+ExecutionTime = 5.01 s  ClockTime = 5 s
+
+Selected 158 cells for refinement out of 15961.
+Refined from 15961 to 17067 cells.
+Selected 0 split points out of a possible 1499.
+Courant Number Mean/Max = 0.0207673, 0.363995
+deltaT = 6.25e-06
+Time = 0.0002375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.01006e+07, min(p): 101298
+max(T): 3557.62, min(T): 287.926
+ExecutionTime = 5.17 s  ClockTime = 6 s
+
+Courant Number Mean/Max = 0.0208874, 0.361195
+deltaT = 6.25e-06
+Time = 0.00024375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.01622e+07, min(p): 101298
+max(T): 3554.56, min(T): 287.926
+ExecutionTime = 5.29 s  ClockTime = 6 s
+
+Courant Number Mean/Max = 0.021007, 0.357557
+deltaT = 6.25e-06
+Time = 0.00025
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02752e+07, min(p): 101298
+max(T): 3594.17, min(T): 287.926
+ExecutionTime = 5.42 s  ClockTime = 6 s
+
+Selected 138 cells for refinement out of 17067.
+Refined from 17067 to 18033 cells.
+Selected 0 split points out of a possible 1636.
+Courant Number Mean/Max = 0.0212479, 0.354419
+deltaT = 6.25e-06
+Time = 0.00025625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.03087e+07, min(p): 101298
+max(T): 3602.57, min(T): 287.926
+ExecutionTime = 5.61 s  ClockTime = 6 s
+
+Courant Number Mean/Max = 0.0213677, 0.353771
+deltaT = 6.25e-06
+Time = 0.0002625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0285e+07, min(p): 101298
+max(T): 3591.07, min(T): 287.926
+ExecutionTime = 5.77 s  ClockTime = 6 s
+
+Courant Number Mean/Max = 0.021486, 0.352046
+deltaT = 6.25e-06
+Time = 0.00026875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02217e+07, min(p): 101298
+max(T): 3566.33, min(T): 287.926
+ExecutionTime = 5.89 s  ClockTime = 6 s
+
+Selected 66 cells for refinement out of 18033.
+Refined from 18033 to 18495 cells.
+Selected 0 split points out of a possible 1702.
+Maximum imbalance = 12.7981 %
+Courant Number Mean/Max = 0.0216903, 0.349425
+deltaT = 6.25e-06
+Time = 0.000275
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02251e+07, min(p): 101298
+max(T): 3576.01, min(T): 287.926
+ExecutionTime = 6.06 s  ClockTime = 6 s
+
+Courant Number Mean/Max = 0.0218066, 0.34601
+deltaT = 6.25e-06
+Time = 0.00028125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02844e+07, min(p): 101298
+max(T): 3606.81, min(T): 287.926
+ExecutionTime = 6.19 s  ClockTime = 7 s
+
+Courant Number Mean/Max = 0.021922, 0.344211
+deltaT = 6.25e-06
+Time = 0.0002875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02787e+07, min(p): 101298
+max(T): 3611.56, min(T): 287.926
+ExecutionTime = 6.31 s  ClockTime = 7 s
+
+Selected 158 cells for refinement out of 18495.
+Refined from 18495 to 19601 cells.
+Selected 0 split points out of a possible 1860.
+Courant Number Mean/Max = 0.0222463, 0.343319
+deltaT = 6.25e-06
+Time = 0.00029375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0225e+07, min(p): 101298
+max(T): 3597.65, min(T): 287.926
+ExecutionTime = 6.5 s  ClockTime = 7 s
+
+Courant Number Mean/Max = 0.0223602, 0.341514
+deltaT = 6.25e-06
+Time = 0.0003
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02192e+07, min(p): 101298
+max(T): 3574.2, min(T): 287.926
+ExecutionTime = 6.64 s  ClockTime = 7 s
+
+Courant Number Mean/Max = 0.0224736, 0.339004
+deltaT = 7.14286e-06
+Time = 0.000307142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0268e+07, min(p): 101298
+max(T): 3587.22, min(T): 287.926
+ExecutionTime = 6.8 s  ClockTime = 7 s
+
+Selected 86 cells for refinement out of 19601.
+Refined from 19601 to 20203 cells.
+Selected 0 split points out of a possible 1922.
+Courant Number Mean/Max = 0.0259105, 0.384258
+deltaT = 7.14286e-06
+Time = 0.000314285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0235e+07, min(p): 101298
+max(T): 3610.68, min(T): 287.926
+ExecutionTime = 7 s  ClockTime = 7 s
+
+Courant Number Mean/Max = 0.0260562, 0.384133
+deltaT = 7.14286e-06
+Time = 0.000321428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.01408e+07, min(p): 101298
+max(T): 3610.43, min(T): 287.926
+ExecutionTime = 7.13 s  ClockTime = 7 s
+
+Courant Number Mean/Max = 0.0262009, 0.383215
+deltaT = 7.14286e-06
+Time = 0.000328571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.00063e+07, min(p): 99356.1
+max(T): 3595.82, min(T): 287.926
+ExecutionTime = 7.29 s  ClockTime = 8 s
+
+Selected 175 cells for refinement out of 20203.
+Refined from 20203 to 21428 cells.
+Selected 0 split points out of a possible 2081.
+Maximum imbalance = 24.734 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.85869%
+Distributing ...
+Courant Number Mean/Max = 0.0265423, 0.38129
+deltaT = 7.14286e-06
+Time = 0.000335714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.00261e+07, min(p): 93189.3
+max(T): 3566.98, min(T): 287.926
+ExecutionTime = 7.6 s  ClockTime = 8 s
+
+Courant Number Mean/Max = 0.0266856, 0.382608
+deltaT = 7.14286e-06
+Time = 0.000342857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.99574e+06, min(p): 87503.2
+max(T): 3600.21, min(T): 287.926
+ExecutionTime = 7.75 s  ClockTime = 8 s
+
+Courant Number Mean/Max = 0.0268271, 0.383004
+deltaT = 7.14286e-06
+Time = 0.00035
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.90623e+06, min(p): 82251.5
+max(T): 3616.2, min(T): 287.926
+ExecutionTime = 7.9 s  ClockTime = 8 s
+
+Selected 96 cells for refinement out of 21428.
+Refined from 21428 to 22100 cells.
+Selected 0 split points out of a possible 2153.
+Courant Number Mean/Max = 0.0270544, 0.382054
+deltaT = 7.14286e-06
+Time = 0.000357142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.77292e+06, min(p): 77395.3
+max(T): 3610.14, min(T): 287.926
+ExecutionTime = 8.15 s  ClockTime = 9 s
+
+Courant Number Mean/Max = 0.0271918, 0.380097
+deltaT = 7.14286e-06
+Time = 0.000364285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.79736e+06, min(p): 72899.4
+max(T): 3588.19, min(T): 287.926
+ExecutionTime = 8.3 s  ClockTime = 9 s
+
+Courant Number Mean/Max = 0.0273298, 0.378142
+deltaT = 7.14286e-06
+Time = 0.000371428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.75182e+06, min(p): 68731.7
+max(T): 3569.82, min(T): 287.926
+ExecutionTime = 8.45 s  ClockTime = 9 s
+
+Selected 150 cells for refinement out of 22100.
+Refined from 22100 to 23150 cells.
+Selected 0 split points out of a possible 2279.
+Courant Number Mean/Max = 0.0276446, 0.379169
+deltaT = 7.14286e-06
+Time = 0.000378571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.64925e+06, min(p): 64863.5
+max(T): 3600, min(T): 287.926
+ExecutionTime = 8.69 s  ClockTime = 9 s
+
+Courant Number Mean/Max = 0.0277814, 0.378805
+deltaT = 7.14286e-06
+Time = 0.000385714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.50477e+06, min(p): 61269
+max(T): 3606.89, min(T): 287.926
+ExecutionTime = 8.86 s  ClockTime = 9 s
+
+Courant Number Mean/Max = 0.0279161, 0.377387
+deltaT = 7.14286e-06
+Time = 0.000392857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.39888e+06, min(p): 57924.9
+max(T): 3596.19, min(T): 287.926
+ExecutionTime = 9.02 s  ClockTime = 9 s
+
+Selected 159 cells for refinement out of 23150.
+Refined from 23150 to 24263 cells.
+Selected 0 split points out of a possible 2438.
+Maximum imbalance = 18.1552 %
+Courant Number Mean/Max = 0.0282866, 0.375212
+deltaT = 7.14286e-06
+Time = 0.0004
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.37174e+06, min(p): 54810.3
+max(T): 3578.13, min(T): 287.926
+ExecutionTime = 9.3 s  ClockTime = 10 s
+
+Courant Number Mean/Max = 0.0284184, 0.376003
+deltaT = 7.14286e-06
+Time = 0.000407142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.28802e+06, min(p): 51906.3
+max(T): 3548.48, min(T): 285.052
+ExecutionTime = 9.49 s  ClockTime = 10 s
+
+Courant Number Mean/Max = 0.0285493, 0.376097
+deltaT = 7.14286e-06
+Time = 0.000414285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.16347e+06, min(p): 49195.7
+max(T): 3575.77, min(T): 281.83
+ExecutionTime = 9.71 s  ClockTime = 10 s
+
+Selected 141 cells for refinement out of 24263.
+Refined from 24263 to 25250 cells.
+Selected 0 split points out of a possible 2567.
+Courant Number Mean/Max = 0.0288475, 0.375102
+deltaT = 7.14286e-06
+Time = 0.000421428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.02409e+06, min(p): 46663.2
+max(T): 3583.47, min(T): 278.694
+ExecutionTime = 9.99 s  ClockTime = 10 s
+
+Courant Number Mean/Max = 0.028976, 0.373315
+deltaT = 7.14286e-06
+Time = 0.000428571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.00112e+06, min(p): 44294.6
+max(T): 3574.95, min(T): 275.641
+ExecutionTime = 10.19 s  ClockTime = 11 s
+
+Courant Number Mean/Max = 0.0291035, 0.370936
+deltaT = 7.14286e-06
+Time = 0.000435714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.91957e+06, min(p): 42077.3
+max(T): 3553.14, min(T): 272.666
+ExecutionTime = 10.39 s  ClockTime = 11 s
+
+Selected 84 cells for refinement out of 25250.
+Refined from 25250 to 25838 cells.
+Selected 0 split points out of a possible 2651.
+Courant Number Mean/Max = 0.0293733, 0.371259
+deltaT = 7.14286e-06
+Time = 0.000442857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.79377e+06, min(p): 39999.6
+max(T): 3521.21, min(T): 269.766
+ExecutionTime = 10.68 s  ClockTime = 11 s
+
+Courant Number Mean/Max = 0.0294981, 0.371152
+deltaT = 7.14286e-06
+Time = 0.00045
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.63798e+06, min(p): 38050.9
+max(T): 3544.62, min(T): 266.94
+ExecutionTime = 10.91 s  ClockTime = 11 s
+
+Courant Number Mean/Max = 0.0296222, 0.370119
+deltaT = 7.14286e-06
+Time = 0.000457142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.48069e+06, min(p): 36221.7
+max(T): 3550.4, min(T): 264.182
+ExecutionTime = 11.13 s  ClockTime = 11 s
+
+Selected 108 cells for refinement out of 25838.
+Refined from 25838 to 26594 cells.
+Selected 0 split points out of a possible 2736.
+Maximum imbalance = 36.6474 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.714447%
+Distributing ...
+Courant Number Mean/Max = 0.0298671, 0.368362
+deltaT = 7.14286e-06
+Time = 0.000464285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.42807e+06, min(p): 34503.2
+max(T): 3541.97, min(T): 261.492
+ExecutionTime = 11.59 s  ClockTime = 12 s
+
+Courant Number Mean/Max = 0.0299887, 0.366825
+deltaT = 7.14286e-06
+Time = 0.000471428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.32635e+06, min(p): 32887.3
+max(T): 3521.43, min(T): 258.867
+ExecutionTime = 11.77 s  ClockTime = 12 s
+
+Courant Number Mean/Max = 0.030108, 0.367474
+deltaT = 7.14286e-06
+Time = 0.000478571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.18807e+06, min(p): 31366.7
+max(T): 3489.51, min(T): 256.303
+ExecutionTime = 11.94 s  ClockTime = 12 s
+
+Selected 203 cells for refinement out of 26594.
+Refined from 26594 to 28015 cells.
+Selected 0 split points out of a possible 2916.
+Courant Number Mean/Max = 0.0304455, 0.367084
+deltaT = 7.14286e-06
+Time = 0.000485714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.02435e+06, min(p): 29934.5
+max(T): 3486.94, min(T): 253.8
+ExecutionTime = 12.24 s  ClockTime = 13 s
+
+Courant Number Mean/Max = 0.0305609, 0.365867
+deltaT = 7.14286e-06
+Time = 0.000492857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.95132e+06, min(p): 28584.8
+max(T): 3496.34, min(T): 251.354
+ExecutionTime = 12.45 s  ClockTime = 13 s
+
+Courant Number Mean/Max = 0.0306744, 0.364021
+deltaT = 7.14286e-06
+Time = 0.0005
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.86149e+06, min(p): 27311.7
+max(T): 3492.12, min(T): 248.963
+ExecutionTime = 12.67 s  ClockTime = 13 s
+
+Selected 91 cells for refinement out of 28015.
+Refined from 28015 to 28652 cells.
+Selected 0 split points out of a possible 2991.
+Courant Number Mean/Max = 0.030915, 0.361646
+deltaT = 7.14286e-06
+Time = 0.000507142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.73059e+06, min(p): 26110
+max(T): 3476.09, min(T): 246.626
+ExecutionTime = 12.97 s  ClockTime = 13 s
+
+Courant Number Mean/Max = 0.0310262, 0.361926
+deltaT = 7.14286e-06
+Time = 0.000514285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.5705e+06, min(p): 24974.9
+max(T): 3448.7, min(T): 244.341
+ExecutionTime = 13.18 s  ClockTime = 14 s
+
+Courant Number Mean/Max = 0.0311354, 0.361648
+deltaT = 7.14286e-06
+Time = 0.000521428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.39253e+06, min(p): 23902
+max(T): 3425.7, min(T): 242.105
+ExecutionTime = 13.4 s  ClockTime = 14 s
+
+Selected 136 cells for refinement out of 28652.
+Refined from 28652 to 29604 cells.
+Selected 0 split points out of a possible 3103.
+Maximum imbalance = 14.498 %
+Courant Number Mean/Max = 0.0313979, 0.360599
+deltaT = 7.14286e-06
+Time = 0.000528571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.3282e+06, min(p): 22887.1
+max(T): 3436.09, min(T): 239.918
+ExecutionTime = 13.7 s  ClockTime = 14 s
+
+Courant Number Mean/Max = 0.0315023, 0.358932
+deltaT = 7.14286e-06
+Time = 0.000535714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.2312e+06, min(p): 21926.6
+max(T): 3433.6, min(T): 237.777
+ExecutionTime = 13.93 s  ClockTime = 14 s
+
+Courant Number Mean/Max = 0.0316047, 0.356762
+deltaT = 7.14286e-06
+Time = 0.000542857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.09532e+06, min(p): 21016.9
+max(T): 3420.65, min(T): 235.682
+ExecutionTime = 14.16 s  ClockTime = 15 s
+
+Selected 106 cells for refinement out of 29604.
+Refined from 29604 to 30346 cells.
+Selected 0 split points out of a possible 3209.
+Courant Number Mean/Max = 0.0318637, 0.357143
+deltaT = 7.14286e-06
+Time = 0.00055
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.9342e+06, min(p): 20154.8
+max(T): 3396.69, min(T): 233.629
+ExecutionTime = 14.51 s  ClockTime = 15 s
+
+Courant Number Mean/Max = 0.0319623, 0.356865
+deltaT = 7.14286e-06
+Time = 0.000557142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.83139e+06, min(p): 19337.2
+max(T): 3361.94, min(T): 231.619
+ExecutionTime = 14.78 s  ClockTime = 15 s
+
+Courant Number Mean/Max = 0.0320588, 0.355876
+deltaT = 7.14286e-06
+Time = 0.000564285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.7643e+06, min(p): 18561.5
+max(T): 3350.23, min(T): 229.65
+ExecutionTime = 15.03 s  ClockTime = 15 s
+
+Selected 165 cells for refinement out of 30346.
+Refined from 30346 to 31501 cells.
+Selected 0 split points out of a possible 3374.
+Courant Number Mean/Max = 0.0323828, 0.354306
+deltaT = 7.14286e-06
+Time = 0.000571428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.65276e+06, min(p): 17825
+max(T): 3353.59, min(T): 227.72
+ExecutionTime = 15.39 s  ClockTime = 16 s
+
+Courant Number Mean/Max = 0.0324752, 0.35224
+deltaT = 7.14286e-06
+Time = 0.000578571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.50401e+06, min(p): 17125.4
+max(T): 3346.72, min(T): 225.828
+ExecutionTime = 15.65 s  ClockTime = 16 s
+
+Courant Number Mean/Max = 0.0325659, 0.350675
+deltaT = 7.14286e-06
+Time = 0.000585714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.33649e+06, min(p): 16460.4
+max(T): 3329.57, min(T): 223.973
+ExecutionTime = 15.92 s  ClockTime = 16 s
+
+Selected 125 cells for refinement out of 31501.
+Refined from 31501 to 32376 cells.
+Selected 0 split points out of a possible 3499.
+Maximum imbalance = 30.7265 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.71658%
+Distributing ...
+Courant Number Mean/Max = 0.0328185, 0.350719
+deltaT = 7.14286e-06
+Time = 0.000592857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.23676e+06, min(p): 15827.9
+max(T): 3302.39, min(T): 222.155
+ExecutionTime = 16.43 s  ClockTime = 17 s
+
+Courant Number Mean/Max = 0.0329096, 0.350075
+deltaT = 7.14286e-06
+Time = 0.0006
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.17957e+06, min(p): 15226.2
+max(T): 3266.68, min(T): 220.371
+ExecutionTime = 16.68 s  ClockTime = 17 s
+
+Courant Number Mean/Max = 0.0330006, 0.348847
+deltaT = 7.14286e-06
+Time = 0.000607142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.07881e+06, min(p): 14653.2
+max(T): 3268.83, min(T): 218.62
+ExecutionTime = 16.93 s  ClockTime = 17 s
+
+Selected 177 cells for refinement out of 32376.
+Refined from 32376 to 33615 cells.
+Selected 0 split points out of a possible 3653.
+Courant Number Mean/Max = 0.0333504, 0.347114
+deltaT = 7.14286e-06
+Time = 0.000614285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.93824e+06, min(p): 14107.5
+max(T): 3265.66, min(T): 216.903
+ExecutionTime = 17.29 s  ClockTime = 18 s
+
+Courant Number Mean/Max = 0.0334393, 0.344967
+deltaT = 7.14286e-06
+Time = 0.000621428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.33893e+06, min(p): 13587.4
+max(T): 3253.47, min(T): 215.217
+ExecutionTime = 17.54 s  ClockTime = 18 s
+
+Courant Number Mean/Max = 0.0335267, 0.345072
+deltaT = 7.14286e-06
+Time = 0.000628571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.9156e+06, min(p): 13091.5
+max(T): 3249.87, min(T): 213.563
+ExecutionTime = 17.8 s  ClockTime = 18 s
+
+Selected 156 cells for refinement out of 33615.
+Refined from 33615 to 34707 cells.
+Selected 0 split points out of a possible 3779.
+Courant Number Mean/Max = 0.0337567, 0.344653
+deltaT = 7.14286e-06
+Time = 0.000635714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.50206e+06, min(p): 12618.5
+max(T): 3339.9, min(T): 211.938
+ExecutionTime = 18.17 s  ClockTime = 19 s
+
+Courant Number Mean/Max = 0.0338427, 0.343658
+deltaT = 7.14286e-06
+Time = 0.000642857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.08906e+06, min(p): 12167
+max(T): 3424.07, min(T): 210.342
+ExecutionTime = 18.44 s  ClockTime = 19 s
+
+Courant Number Mean/Max = 0.0339282, 0.342162
+deltaT = 7.14286e-06
+Time = 0.00065
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.66161e+06, min(p): 11735.9
+max(T): 3500.3, min(T): 208.775
+ExecutionTime = 18.73 s  ClockTime = 19 s
+
+Selected 115 cells for refinement out of 34707.
+Refined from 34707 to 35512 cells.
+Selected 0 split points out of a possible 3878.
+Maximum imbalance = 19.4638 %
+Courant Number Mean/Max = 0.0341855, 0.340247
+deltaT = 7.14286e-06
+Time = 0.000657142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.20347e+06, min(p): 11324.1
+max(T): 3569.22, min(T): 207.235
+ExecutionTime = 19.15 s  ClockTime = 20 s
+
+Courant Number Mean/Max = 0.0342697, 0.338014
+deltaT = 7.14286e-06
+Time = 0.000664285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.72215e+06, min(p): 10930.5
+max(T): 3631.71, min(T): 205.722
+ExecutionTime = 19.45 s  ClockTime = 20 s
+
+Courant Number Mean/Max = 0.0343531, 0.337981
+deltaT = 7.14286e-06
+Time = 0.000671428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02221e+07, min(p): 10554.3
+max(T): 3688.46, min(T): 204.235
+ExecutionTime = 19.73 s  ClockTime = 20 s
+
+Selected 122 cells for refinement out of 35512.
+Refined from 35512 to 36366 cells.
+Selected 0 split points out of a possible 3972.
+Courant Number Mean/Max = 0.0345592, 0.337431
+deltaT = 7.14286e-06
+Time = 0.000678571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.06992e+07, min(p): 10194.3
+max(T): 3739.79, min(T): 202.773
+ExecutionTime = 20.15 s  ClockTime = 21 s
+
+Courant Number Mean/Max = 0.0346424, 0.336379
+deltaT = 7.14286e-06
+Time = 0.000685714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.11504e+07, min(p): 9849.89
+max(T): 3786.21, min(T): 201.336
+ExecutionTime = 20.44 s  ClockTime = 21 s
+
+Courant Number Mean/Max = 0.034727, 0.334891
+deltaT = 7.14286e-06
+Time = 0.000692857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.15729e+07, min(p): 9520.15
+max(T): 3828.27, min(T): 199.923
+ExecutionTime = 20.74 s  ClockTime = 21 s
+
+Selected 189 cells for refinement out of 36366.
+Refined from 36366 to 37689 cells.
+Selected 0 split points out of a possible 4136.
+Courant Number Mean/Max = 0.0350082, 0.333665
+deltaT = 7.14286e-06
+Time = 0.0007
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.19628e+07, min(p): 9204.37
+max(T): 3866.24, min(T): 198.533
+ExecutionTime = 21.19 s  ClockTime = 22 s
+
+Courant Number Mean/Max = 0.0350936, 0.332214
+deltaT = 7.14286e-06
+Time = 0.000707142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.23171e+07, min(p): 8901.81
+max(T): 3900.78, min(T): 197.167
+ExecutionTime = 21.55 s  ClockTime = 22 s
+
+Courant Number Mean/Max = 0.0351792, 0.331839
+deltaT = 7.14286e-06
+Time = 0.000714285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.26359e+07, min(p): 8611.83
+max(T): 3932.34, min(T): 195.822
+ExecutionTime = 21.88 s  ClockTime = 22 s
+
+Selected 106 cells for refinement out of 37689.
+Refined from 37689 to 38431 cells.
+Selected 0 split points out of a possible 4239.
+Maximum imbalance = 36.1089 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.372095%
+Distributing ...
+Courant Number Mean/Max = 0.0354013, 0.331637
+deltaT = 7.14286e-06
+Time = 0.000721428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.29184e+07, min(p): 8333.78
+max(T): 3961.07, min(T): 194.499
+ExecutionTime = 22.43 s  ClockTime = 23 s
+
+Courant Number Mean/Max = 0.0354869, 0.330998
+deltaT = 7.14286e-06
+Time = 0.000728571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.31644e+07, min(p): 8067.09
+max(T): 3987.09, min(T): 193.197
+ExecutionTime = 22.7 s  ClockTime = 23 s
+
+Courant Number Mean/Max = 0.0355717, 0.329959
+deltaT = 7.14286e-06
+Time = 0.000735714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.33743e+07, min(p): 7811.19
+max(T): 4010.51, min(T): 191.916
+ExecutionTime = 22.98 s  ClockTime = 23 s
+
+Selected 107 cells for refinement out of 38431.
+Refined from 38431 to 39180 cells.
+Selected 0 split points out of a possible 4322.
+Courant Number Mean/Max = 0.0357544, 0.328608
+deltaT = 7.14286e-06
+Time = 0.000742857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.35484e+07, min(p): 7565.55
+max(T): 4031.38, min(T): 190.655
+ExecutionTime = 23.39 s  ClockTime = 24 s
+
+Courant Number Mean/Max = 0.035838, 0.326986
+deltaT = 7.14286e-06
+Time = 0.00075
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.36864e+07, min(p): 7329.68
+max(T): 4049.7, min(T): 189.413
+ExecutionTime = 23.68 s  ClockTime = 24 s
+
+Courant Number Mean/Max = 0.0359213, 0.326356
+deltaT = 7.14286e-06
+Time = 0.000757142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.37858e+07, min(p): 7103.11
+max(T): 4065.21, min(T): 188.191
+ExecutionTime = 24.03 s  ClockTime = 24 s
+
+Selected 86 cells for refinement out of 39180.
+Refined from 39180 to 39782 cells.
+Selected 0 split points out of a possible 4384.
+Courant Number Mean/Max = 0.0361122, 0.326009
+deltaT = 7.14286e-06
+Time = 0.000764285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.38464e+07, min(p): 6885.4
+max(T): 4077.96, min(T): 186.987
+ExecutionTime = 24.45 s  ClockTime = 25 s
+
+Courant Number Mean/Max = 0.0361979, 0.32526
+deltaT = 7.14286e-06
+Time = 0.000771428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.38705e+07, min(p): 6676.14
+max(T): 4088.31, min(T): 185.802
+ExecutionTime = 24.73 s  ClockTime = 25 s
+
+Courant Number Mean/Max = 0.0362842, 0.324164
+deltaT = 7.14286e-06
+Time = 0.000778571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.38604e+07, min(p): 6474.92
+max(T): 4096.33, min(T): 184.634
+ExecutionTime = 25.01 s  ClockTime = 25 s
+
+Selected 208 cells for refinement out of 39782.
+Refined from 39782 to 41238 cells.
+Selected 0 split points out of a possible 4588.
+Maximum imbalance = 7.77438 %
+Courant Number Mean/Max = 0.0366589, 0.32278
+deltaT = 7.14286e-06
+Time = 0.000785714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.38184e+07, min(p): 6281.38
+max(T): 4102.03, min(T): 183.484
+ExecutionTime = 25.38 s  ClockTime = 26 s
+
+Courant Number Mean/Max = 0.0367447, 0.321136
+deltaT = 7.14286e-06
+Time = 0.000792857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.3747e+07, min(p): 6095.17
+max(T): 4105.44, min(T): 182.35
+ExecutionTime = 25.67 s  ClockTime = 26 s
+
+Courant Number Mean/Max = 0.0368304, 0.320937
+deltaT = 7.14286e-06
+Time = 0.0008
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.36499e+07, min(p): 5915.93
+max(T): 4106.85, min(T): 181.233
+ExecutionTime = 25.97 s  ClockTime = 26 s
+
+Selected 271 cells for refinement out of 41238.
+Refined from 41238 to 43135 cells.
+Selected 0 split points out of a possible 4838.
+Courant Number Mean/Max = 0.0373566, 0.320461
+deltaT = 7.14286e-06
+Time = 0.000807142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.3533e+07, min(p): 5743.36
+max(T): 4106.69, min(T): 180.133
+ExecutionTime = 26.42 s  ClockTime = 27 s
+
+Courant Number Mean/Max = 0.0374423, 0.319595
+deltaT = 7.14286e-06
+Time = 0.000814285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.33994e+07, min(p): 5575.85
+max(T): 4105.08, min(T): 179.048
+ExecutionTime = 26.77 s  ClockTime = 27 s
+
+Courant Number Mean/Max = 0.0375278, 0.318394
+deltaT = 7.14286e-06
+Time = 0.000821428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.32513e+07, min(p): 5410.46
+max(T): 4102.07, min(T): 177.978
+ExecutionTime = 27.08 s  ClockTime = 27 s
+
+Selected 143 cells for refinement out of 43135.
+Refined from 43135 to 44136 cells.
+Selected 0 split points out of a possible 4980.
+Courant Number Mean/Max = 0.0378387, 0.316925
+deltaT = 7.14286e-06
+Time = 0.000828571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.30907e+07, min(p): 5253.64
+max(T): 4097.69, min(T): 176.924
+ExecutionTime = 27.56 s  ClockTime = 28 s
+
+Courant Number Mean/Max = 0.0379249, 0.31522
+deltaT = 7.14286e-06
+Time = 0.000835714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.29193e+07, min(p): 5105.49
+max(T): 4091.89, min(T): 175.884
+ExecutionTime = 27.93 s  ClockTime = 28 s
+
+Courant Number Mean/Max = 0.0380121, 0.314041
+deltaT = 7.14286e-06
+Time = 0.000842857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.27396e+07, min(p): 4966.12
+max(T): 4085.12, min(T): 174.859
+ExecutionTime = 28.31 s  ClockTime = 29 s
+
+Selected 140 cells for refinement out of 44136.
+Refined from 44136 to 45116 cells.
+Selected 0 split points out of a possible 5120.
+Maximum imbalance = 17.0671 %
+Courant Number Mean/Max = 0.0382343, 0.31357
+deltaT = 7.14286e-06
+Time = 0.00085
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.25527e+07, min(p): 4832.24
+max(T): 4077.41, min(T): 173.848
+ExecutionTime = 28.84 s  ClockTime = 29 s
+
+Courant Number Mean/Max = 0.0383222, 0.312789
+deltaT = 7.14286e-06
+Time = 0.000857142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.23627e+07, min(p): 4698.8
+max(T): 4068.98, min(T): 172.851
+ExecutionTime = 29.26 s  ClockTime = 30 s
+
+Courant Number Mean/Max = 0.03841, 0.311752
+deltaT = 7.14286e-06
+Time = 0.000864285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.21996e+07, min(p): 4570.03
+max(T): 4059.54, min(T): 171.867
+ExecutionTime = 29.66 s  ClockTime = 30 s
+
+Selected 92 cells for refinement out of 45116.
+Refined from 45116 to 45760 cells.
+Selected 0 split points out of a possible 5209.
+Courant Number Mean/Max = 0.0386155, 0.310481
+deltaT = 7.14286e-06
+Time = 0.000871428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.20582e+07, min(p): 4445.74
+max(T): 4049.05, min(T): 170.896
+ExecutionTime = 30.13 s  ClockTime = 30 s
+
+Courant Number Mean/Max = 0.0387028, 0.308974
+deltaT = 7.14286e-06
+Time = 0.000878571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.19023e+07, min(p): 4320.34
+max(T): 4037.54, min(T): 169.939
+ExecutionTime = 30.47 s  ClockTime = 31 s
+
+Courant Number Mean/Max = 0.0387902, 0.30728
+deltaT = 7.14286e-06
+Time = 0.000885714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.17341e+07, min(p): 4194.98
+max(T): 4025.03, min(T): 168.994
+ExecutionTime = 30.85 s  ClockTime = 31 s
+
+Selected 133 cells for refinement out of 45760.
+Refined from 45760 to 46691 cells.
+Selected 0 split points out of a possible 5306.
+Courant Number Mean/Max = 0.0390453, 0.306852
+deltaT = 7.14286e-06
+Time = 0.000892857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.15551e+07, min(p): 4074.49
+max(T): 4011.53, min(T): 168.061
+ExecutionTime = 31.33 s  ClockTime = 32 s
+
+Courant Number Mean/Max = 0.0391348, 0.306193
+deltaT = 7.14286e-06
+Time = 0.0009
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.13652e+07, min(p): 3958.82
+max(T): 3997.07, min(T): 167.119
+ExecutionTime = 31.72 s  ClockTime = 32 s
+
+Courant Number Mean/Max = 0.0392248, 0.305308
+deltaT = 7.14286e-06
+Time = 0.000907142857143
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.11827e+07, min(p): 3847.83
+max(T): 3981.73, min(T): 166.175
+ExecutionTime = 32.14 s  ClockTime = 33 s
+
+Selected 310 cells for refinement out of 46691.
+Refined from 46691 to 48861 cells.
+Selected 9 split points out of a possible 5578.
+Unrefined from 48861 to 48798 cells.
+Maximum imbalance = 25.4478 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.987745%
+Distributing ...
+Courant Number Mean/Max = 0.0397248, 0.304186
+deltaT = 7.14286e-06
+Time = 0.000914285714286
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.10046e+07, min(p): 3741.43
+max(T): 3967.7, min(T): 165.25
+ExecutionTime = 32.9 s  ClockTime = 33 s
+
+Courant Number Mean/Max = 0.0398147, 0.302832
+deltaT = 7.14286e-06
+Time = 0.000921428571429
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.08286e+07, min(p): 3639.48
+max(T): 3956.21, min(T): 164.344
+ExecutionTime = 33.22 s  ClockTime = 34 s
+
+Courant Number Mean/Max = 0.0399046, 0.301308
+deltaT = 7.14286e-06
+Time = 0.000928571428571
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.06585e+07, min(p): 3542.01
+max(T): 3943.61, min(T): 163.462
+ExecutionTime = 33.55 s  ClockTime = 34 s
+
+Selected 206 cells for refinement out of 48798.
+Refined from 48798 to 50240 cells.
+Selected 29 split points out of a possible 5752.
+Unrefined from 50240 to 50037 cells.
+Courant Number Mean/Max = 0.0402305, 0.300259
+deltaT = 7.14286e-06
+Time = 0.000935714285714
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.04993e+07, min(p): 3449.18
+max(T): 3932.15, min(T): 162.608
+ExecutionTime = 34.09 s  ClockTime = 34 s
+
+Courant Number Mean/Max = 0.0403201, 0.299141
+deltaT = 7.14286e-06
+Time = 0.000942857142857
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.03531e+07, min(p): 3361.22
+max(T): 3919.82, min(T): 161.788
+ExecutionTime = 34.43 s  ClockTime = 35 s
+
+Courant Number Mean/Max = 0.0404108, 0.298315
+deltaT = 7.14286e-06
+Time = 0.00095
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0207e+07, min(p): 3278.26
+max(T): 3906.32, min(T): 160.945
+ExecutionTime = 34.79 s  ClockTime = 35 s
+
+Selected 132 cells for refinement out of 50037.
+Refined from 50037 to 50961 cells.
+Selected 2 split points out of a possible 5813.
+Unrefined from 50961 to 50947 cells.
+Courant Number Mean/Max = 0.0406348, 0.297449
+deltaT = 8.33333e-06
+Time = 0.000958333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.00522e+07, min(p): 3188.1
+max(T): 3891.67, min(T): 159.95
+ExecutionTime = 35.41 s  ClockTime = 36 s
+
+Courant Number Mean/Max = 0.0475346, 0.345764
+deltaT = 8.33333e-06
+Time = 0.000966666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.89494e+06, min(p): 3106.64
+max(T): 3876.63, min(T): 158.962
+ExecutionTime = 35.75 s  ClockTime = 36 s
+
+Courant Number Mean/Max = 0.0476625, 0.344455
+deltaT = 8.33333e-06
+Time = 0.000975
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.75575e+06, min(p): 3021.4
+max(T): 3859.82, min(T): 157.977
+ExecutionTime = 36.09 s  ClockTime = 36 s
+
+Selected 158 cells for refinement out of 50947.
+Refined from 50947 to 52053 cells.
+Selected 0 split points out of a possible 5941.
+Maximum imbalance = 6.55678 %
+Courant Number Mean/Max = 0.0479796, 0.343111
+deltaT = 8.33333e-06
+Time = 0.000983333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.60294e+06, min(p): 2928.54
+max(T): 3842.46, min(T): 156.998
+ExecutionTime = 36.56 s  ClockTime = 37 s
+
+Courant Number Mean/Max = 0.0481076, 0.342659
+deltaT = 8.33333e-06
+Time = 0.000991666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.47431e+06, min(p): 2839.64
+max(T): 3827.07, min(T): 156.037
+ExecutionTime = 36.92 s  ClockTime = 37 s
+
+Courant Number Mean/Max = 0.0482358, 0.341946
+deltaT = 8.33333e-06
+Time = 0.001
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.37835e+06, min(p): 2754.69
+max(T): 3809.9, min(T): 155.097
+ExecutionTime = 37.28 s  ClockTime = 38 s
+
+Selected 154 cells for refinement out of 52053.
+Refined from 52053 to 53131 cells.
+Selected 0 split points out of a possible 6093.
+Courant Number Mean/Max = 0.0485563, 0.341486
+deltaT = 8.33333e-06
+Time = 0.00100833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.29003e+06, min(p): 2673.65
+max(T): 3791.12, min(T): 154.178
+ExecutionTime = 37.81 s  ClockTime = 38 s
+
+Courant Number Mean/Max = 0.0486867, 0.341601
+deltaT = 8.33333e-06
+Time = 0.00101666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.04381e+07, min(p): 2596.5
+max(T): 3772.51, min(T): 153.285
+ExecutionTime = 38.19 s  ClockTime = 39 s
+
+Courant Number Mean/Max = 0.0488185, 0.341515
+deltaT = 8.33333e-06
+Time = 0.001025
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.1647e+07, min(p): 2523.48
+max(T): 3756.39, min(T): 152.426
+ExecutionTime = 38.55 s  ClockTime = 39 s
+
+Selected 189 cells for refinement out of 53131.
+Refined from 53131 to 54454 cells.
+Selected 0 split points out of a possible 6273.
+Courant Number Mean/Max = 0.0492642, 0.341202
+deltaT = 8.33333e-06
+Time = 0.00103333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.28949e+07, min(p): 2454.82
+max(T): 3738.44, min(T): 151.609
+ExecutionTime = 39.05 s  ClockTime = 39 s
+
+Courant Number Mean/Max = 0.0493968, 0.340663
+deltaT = 8.33333e-06
+Time = 0.00104166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.41668e+07, min(p): 2391.04
+max(T): 3741.1, min(T): 150.857
+ExecutionTime = 39.43 s  ClockTime = 40 s
+
+Courant Number Mean/Max = 0.0495297, 0.34022
+deltaT = 8.33333e-06
+Time = 0.00105
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.54486e+07, min(p): 2333.66
+max(T): 3862.06, min(T): 150.105
+ExecutionTime = 39.81 s  ClockTime = 40 s
+
+Selected 222 cells for refinement out of 54454.
+Refined from 54454 to 56008 cells.
+Selected 0 split points out of a possible 6442.
+Maximum imbalance = 13.1553 %
+Courant Number Mean/Max = 0.0499533, 0.339765
+deltaT = 8.33333e-06
+Time = 0.00105833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.67276e+07, min(p): 2285.04
+max(T): 3977.33, min(T): 149.246
+ExecutionTime = 40.36 s  ClockTime = 41 s
+
+Courant Number Mean/Max = 0.0500869, 0.33907
+deltaT = 8.33333e-06
+Time = 0.00106666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.79909e+07, min(p): 2223.7
+max(T): 4086.96, min(T): 148.392
+ExecutionTime = 40.77 s  ClockTime = 41 s
+
+Courant Number Mean/Max = 0.0502213, 0.338928
+deltaT = 8.33333e-06
+Time = 0.001075
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.92262e+07, min(p): 2161.34
+max(T): 4191.17, min(T): 147.555
+ExecutionTime = 41.15 s  ClockTime = 42 s
+
+Selected 189 cells for refinement out of 56008.
+Refined from 56008 to 57331 cells.
+Selected 0 split points out of a possible 6606.
+Courant Number Mean/Max = 0.050692, 0.339036
+deltaT = 8.33333e-06
+Time = 0.00108333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.04253e+07, min(p): 2101.66
+max(T): 4291.34, min(T): 146.735
+ExecutionTime = 41.67 s  ClockTime = 42 s
+
+Courant Number Mean/Max = 0.050828, 0.338885
+deltaT = 8.33333e-06
+Time = 0.00109166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.15771e+07, min(p): 2044.65
+max(T): 4387.64, min(T): 145.935
+ExecutionTime = 42.07 s  ClockTime = 42 s
+
+Courant Number Mean/Max = 0.050964, 0.338457
+deltaT = 8.33333e-06
+Time = 0.0011
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.26844e+07, min(p): 1990.38
+max(T): 4480.34, min(T): 145.16
+ExecutionTime = 42.5 s  ClockTime = 43 s
+
+Selected 176 cells for refinement out of 57331.
+Refined from 57331 to 58563 cells.
+Selected 5 split points out of a possible 6782.
+Unrefined from 58563 to 58528 cells.
+Courant Number Mean/Max = 0.0514091, 0.337768
+deltaT = 8.33333e-06
+Time = 0.00110833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.37438e+07, min(p): 1939.14
+max(T): 4569.21, min(T): 144.422
+ExecutionTime = 43.22 s  ClockTime = 44 s
+
+Courant Number Mean/Max = 0.0515446, 0.336805
+deltaT = 8.33333e-06
+Time = 0.00111666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.47434e+07, min(p): 1891.36
+max(T): 4653.55, min(T): 143.738
+ExecutionTime = 43.64 s  ClockTime = 44 s
+
+Courant Number Mean/Max = 0.0516802, 0.335563
+deltaT = 8.33333e-06
+Time = 0.001125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.56755e+07, min(p): 1847.78
+max(T): 4732.9, min(T): 143.138
+ExecutionTime = 44.06 s  ClockTime = 44 s
+
+Selected 267 cells for refinement out of 58528.
+Refined from 58528 to 60397 cells.
+Selected 0 split points out of a possible 7036.
+Maximum imbalance = 19.4662 %
+Courant Number Mean/Max = 0.052226, 0.334059
+deltaT = 8.33333e-06
+Time = 0.00113333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.65331e+07, min(p): 1810.4
+max(T): 4807.04, min(T): 142.525
+ExecutionTime = 44.61 s  ClockTime = 45 s
+
+Courant Number Mean/Max = 0.0523628, 0.332323
+deltaT = 8.33333e-06
+Time = 0.00114166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.731e+07, min(p): 1774.75
+max(T): 4875.78, min(T): 141.777
+ExecutionTime = 45.05 s  ClockTime = 45 s
+
+Courant Number Mean/Max = 0.0525002, 0.330387
+deltaT = 8.33333e-06
+Time = 0.00115
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.80025e+07, min(p): 1728.47
+max(T): 4938.97, min(T): 141.046
+ExecutionTime = 45.5 s  ClockTime = 46 s
+
+Selected 165 cells for refinement out of 60397.
+Refined from 60397 to 61552 cells.
+Selected 0 split points out of a possible 7164.
+Courant Number Mean/Max = 0.0528701, 0.329574
+deltaT = 8.33333e-06
+Time = 0.00115833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.86672e+07, min(p): 1684.22
+max(T): 4996.3, min(T): 140.333
+ExecutionTime = 46.11 s  ClockTime = 46 s
+
+Courant Number Mean/Max = 0.0530076, 0.329169
+deltaT = 8.33333e-06
+Time = 0.00116666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.92176e+07, min(p): 1642
+max(T): 5047.02, min(T): 139.64
+ExecutionTime = 46.59 s  ClockTime = 47 s
+
+Courant Number Mean/Max = 0.0531447, 0.328523
+deltaT = 8.33333e-06
+Time = 0.001175
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.96418e+07, min(p): 1601.85
+max(T): 5090.68, min(T): 138.975
+ExecutionTime = 47.04 s  ClockTime = 47 s
+
+Selected 238 cells for refinement out of 61552.
+Refined from 61552 to 63218 cells.
+Selected 5 split points out of a possible 7402.
+Unrefined from 63218 to 63183 cells.
+Courant Number Mean/Max = 0.0536671, 0.327572
+deltaT = 8.33333e-06
+Time = 0.00118333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.99777e+07, min(p): 1564.13
+max(T): 5127.34, min(T): 138.354
+ExecutionTime = 47.73 s  ClockTime = 48 s
+
+Courant Number Mean/Max = 0.0538029, 0.326288
+deltaT = 8.33333e-06
+Time = 0.00119166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.03468e+07, min(p): 1529.31
+max(T): 5158.01, min(T): 137.804
+ExecutionTime = 48.25 s  ClockTime = 49 s
+
+Courant Number Mean/Max = 0.0539384, 0.32475
+deltaT = 8.33333e-06
+Time = 0.0012
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.06096e+07, min(p): 1498.12
+max(T): 5182.86, min(T): 137.266
+ExecutionTime = 48.75 s  ClockTime = 49 s
+
+Selected 191 cells for refinement out of 63183.
+Refined from 63183 to 64520 cells.
+Selected 0 split points out of a possible 7539.
+Maximum imbalance = 24.6125 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.954743%
+Distributing ...
+Courant Number Mean/Max = 0.054309, 0.32303
+deltaT = 8.33333e-06
+Time = 0.00120833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.08648e+07, min(p): 1472.46
+max(T): 5201.74, min(T): 136.595
+ExecutionTime = 49.72 s  ClockTime = 50 s
+
+Courant Number Mean/Max = 0.0544462, 0.321159
+deltaT = 8.33333e-06
+Time = 0.00121666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.12365e+07, min(p): 1436.98
+max(T): 5214.64, min(T): 135.94
+ExecutionTime = 50.18 s  ClockTime = 51 s
+
+Courant Number Mean/Max = 0.0545841, 0.319137
+deltaT = 8.33333e-06
+Time = 0.001225
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.14464e+07, min(p): 1402.04
+max(T): 5221.53, min(T): 135.301
+ExecutionTime = 50.62 s  ClockTime = 51 s
+
+Selected 202 cells for refinement out of 64520.
+Refined from 64520 to 65934 cells.
+Selected 0 split points out of a possible 7720.
+Courant Number Mean/Max = 0.0550196, 0.316971
+deltaT = 8.33333e-06
+Time = 0.00123333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.14959e+07, min(p): 1368.72
+max(T): 5222.32, min(T): 134.682
+ExecutionTime = 51.22 s  ClockTime = 52 s
+
+Courant Number Mean/Max = 0.055157, 0.314659
+deltaT = 8.33333e-06
+Time = 0.00124166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.14097e+07, min(p): 1337.03
+max(T): 5217, min(T): 134.087
+ExecutionTime = 51.67 s  ClockTime = 52 s
+
+Courant Number Mean/Max = 0.0552939, 0.312211
+deltaT = 8.33333e-06
+Time = 0.00125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.12053e+07, min(p): 1307.06
+max(T): 5205.67, min(T): 133.527
+ExecutionTime = 52.23 s  ClockTime = 53 s
+
+Selected 197 cells for refinement out of 65934.
+Refined from 65934 to 67313 cells.
+Selected 0 split points out of a possible 7896.
+Courant Number Mean/Max = 0.0556999, 0.309779
+deltaT = 8.33333e-06
+Time = 0.00125833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.08892e+07, min(p): 1279.21
+max(T): 5188.46, min(T): 133.028
+ExecutionTime = 52.84 s  ClockTime = 53 s
+
+Courant Number Mean/Max = 0.0558352, 0.307632
+deltaT = 8.33333e-06
+Time = 0.00126666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.08674e+07, min(p): 1253.99
+max(T): 5165.37, min(T): 132.512
+ExecutionTime = 53.28 s  ClockTime = 54 s
+
+Courant Number Mean/Max = 0.0559696, 0.305333
+deltaT = 8.33333e-06
+Time = 0.001275
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.07699e+07, min(p): 1232.15
+max(T): 5136.64, min(T): 131.901
+ExecutionTime = 53.76 s  ClockTime = 54 s
+
+Selected 216 cells for refinement out of 67313.
+Refined from 67313 to 68825 cells.
+Selected 4 split points out of a possible 8076.
+Unrefined from 68825 to 68797 cells.
+Maximum imbalance = 2.37365 %
+Courant Number Mean/Max = 0.0564217, 0.303008
+deltaT = 8.33333e-06
+Time = 0.00128333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.05388e+07, min(p): 1206.29
+max(T): 5102.87, min(T): 131.307
+ExecutionTime = 54.51 s  ClockTime = 55 s
+
+Courant Number Mean/Max = 0.0565575, 0.30198
+deltaT = 8.33333e-06
+Time = 0.00129166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.01866e+07, min(p): 1178.28
+max(T): 5064.59, min(T): 130.732
+ExecutionTime = 55.02 s  ClockTime = 55 s
+
+Courant Number Mean/Max = 0.056694, 0.301072
+deltaT = 8.33333e-06
+Time = 0.0013
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.97137e+07, min(p): 1151.59
+max(T): 5021.87, min(T): 130.176
+ExecutionTime = 55.74 s  ClockTime = 56 s
+
+Selected 168 cells for refinement out of 68797.
+Refined from 68797 to 69973 cells.
+Selected 0 split points out of a possible 8205.
+Courant Number Mean/Max = 0.0571082, 0.30014
+deltaT = 8.33333e-06
+Time = 0.00130833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.91254e+07, min(p): 1126.2
+max(T): 4974.97, min(T): 129.639
+ExecutionTime = 56.53 s  ClockTime = 57 s
+
+Courant Number Mean/Max = 0.0572448, 0.299186
+deltaT = 8.33333e-06
+Time = 0.00131666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.84341e+07, min(p): 1102.18
+max(T): 4924.5, min(T): 129.133
+ExecutionTime = 57.02 s  ClockTime = 57 s
+
+Courant Number Mean/Max = 0.0573809, 0.298212
+deltaT = 8.33333e-06
+Time = 0.001325
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.79231e+07, min(p): 1079.73
+max(T): 4871.14, min(T): 128.676
+ExecutionTime = 57.51 s  ClockTime = 58 s
+
+Selected 162 cells for refinement out of 69973.
+Refined from 69973 to 71107 cells.
+Selected 0 split points out of a possible 8355.
+Courant Number Mean/Max = 0.057713, 0.297218
+deltaT = 8.33333e-06
+Time = 0.00133333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.74957e+07, min(p): 1059.26
+max(T): 4815.55, min(T): 128.184
+ExecutionTime = 58.16 s  ClockTime = 59 s
+
+Courant Number Mean/Max = 0.0578476, 0.296371
+deltaT = 8.33333e-06
+Time = 0.00134166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.69743e+07, min(p): 1041.3
+max(T): 4758.27, min(T): 127.623
+ExecutionTime = 58.65 s  ClockTime = 59 s
+
+Courant Number Mean/Max = 0.0579815, 0.296563
+deltaT = 8.33333e-06
+Time = 0.00135
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.63541e+07, min(p): 1021.42
+max(T): 4699.79, min(T): 127.08
+ExecutionTime = 59.18 s  ClockTime = 60 s
+
+Selected 359 cells for refinement out of 71107.
+Refined from 71107 to 73620 cells.
+Selected 0 split points out of a possible 8696.
+Maximum imbalance = 4.51508 %
+Courant Number Mean/Max = 0.0587075, 0.297633
+deltaT = 8.33333e-06
+Time = 0.00135833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.5639e+07, min(p): 998.72
+max(T): 4640.44, min(T): 126.558
+ExecutionTime = 59.9 s  ClockTime = 60 s
+
+Courant Number Mean/Max = 0.058842, 0.298485
+deltaT = 8.33333e-06
+Time = 0.00136666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.48351e+07, min(p): 977.095
+max(T): 4580.51, min(T): 126.055
+ExecutionTime = 60.42 s  ClockTime = 61 s
+
+Courant Number Mean/Max = 0.0589771, 0.299134
+deltaT = 8.33333e-06
+Time = 0.001375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.39602e+07, min(p): 956.564
+max(T): 4520.15, min(T): 125.573
+ExecutionTime = 60.92 s  ClockTime = 61 s
+
+Selected 207 cells for refinement out of 73620.
+Refined from 73620 to 75069 cells.
+Selected 0 split points out of a possible 8865.
+Courant Number Mean/Max = 0.0594382, 0.29983
+deltaT = 8.33333e-06
+Time = 0.00138333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.30366e+07, min(p): 937.15
+max(T): 4458.45, min(T): 125.116
+ExecutionTime = 61.6 s  ClockTime = 62 s
+
+Courant Number Mean/Max = 0.0595731, 0.300983
+deltaT = 8.33333e-06
+Time = 0.00139166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.23465e+07, min(p): 918.942
+max(T): 4394.83, min(T): 124.702
+ExecutionTime = 62.11 s  ClockTime = 62 s
+
+Courant Number Mean/Max = 0.0597075, 0.303136
+deltaT = 8.33333e-06
+Time = 0.0014
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.1682e+07, min(p): 902.266
+max(T): 4329.53, min(T): 124.22
+ExecutionTime = 62.66 s  ClockTime = 63 s
+
+Selected 161 cells for refinement out of 75069.
+Refined from 75069 to 76196 cells.
+Selected 0 split points out of a possible 9011.
+Courant Number Mean/Max = 0.0600561, 0.304985
+deltaT = 8.33333e-06
+Time = 0.00140833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.09768e+07, min(p): 887.555
+max(T): 4262.98, min(T): 123.703
+ExecutionTime = 63.41 s  ClockTime = 64 s
+
+Courant Number Mean/Max = 0.0601891, 0.306545
+deltaT = 8.33333e-06
+Time = 0.00141666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.02391e+07, min(p): 871.659
+max(T): 4196.21, min(T): 123.201
+ExecutionTime = 63.93 s  ClockTime = 64 s
+
+Courant Number Mean/Max = 0.0603216, 0.30784
+deltaT = 8.33333e-06
+Time = 0.001425
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.94801e+07, min(p): 853.143
+max(T): 4131.18, min(T): 122.724
+ExecutionTime = 64.45 s  ClockTime = 65 s
+
+Selected 189 cells for refinement out of 76196.
+Refined from 76196 to 77519 cells.
+Selected 0 split points out of a possible 9196.
+Maximum imbalance = 5.6283 %
+Courant Number Mean/Max = 0.0607313, 0.309109
+deltaT = 8.33333e-06
+Time = 0.00143333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.87072e+07, min(p): 835.459
+max(T): 4067.91, min(T): 122.268
+ExecutionTime = 65.15 s  ClockTime = 66 s
+
+Courant Number Mean/Max = 0.0608643, 0.310257
+deltaT = 8.33333e-06
+Time = 0.00144166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.79251e+07, min(p): 818.686
+max(T): 4006.66, min(T): 121.833
+ExecutionTime = 65.7 s  ClockTime = 66 s
+
+Courant Number Mean/Max = 0.0609979, 0.311171
+deltaT = 8.33333e-06
+Time = 0.00145
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.71342e+07, min(p): 802.83
+max(T): 3947.99, min(T): 121.419
+ExecutionTime = 66.32 s  ClockTime = 67 s
+
+Selected 201 cells for refinement out of 77519.
+Refined from 77519 to 78926 cells.
+Selected 0 split points out of a possible 9368.
+Courant Number Mean/Max = 0.061512, 0.311869
+deltaT = 8.33333e-06
+Time = 0.00145833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.63276e+07, min(p): 787.988
+max(T): 3891.22, min(T): 121.044
+ExecutionTime = 67.08 s  ClockTime = 67 s
+
+Courant Number Mean/Max = 0.0616451, 0.313213
+deltaT = 8.33333e-06
+Time = 0.00146666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.56215e+07, min(p): 774.347
+max(T): 3835.87, min(T): 120.566
+ExecutionTime = 67.64 s  ClockTime = 68 s
+
+Courant Number Mean/Max = 0.0617777, 0.314731
+deltaT = 8.33333e-06
+Time = 0.001475
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.50212e+07, min(p): 762.285
+max(T): 3788.65, min(T): 120.088
+ExecutionTime = 68.27 s  ClockTime = 69 s
+
+Selected 248 cells for refinement out of 78926.
+Refined from 78926 to 80662 cells.
+Selected 0 split points out of a possible 9579.
+Courant Number Mean/Max = 0.0622572, 0.316108
+deltaT = 8.33333e-06
+Time = 0.00148333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.44038e+07, min(p): 749.005
+max(T): 3752.61, min(T): 119.626
+ExecutionTime = 69 s  ClockTime = 69 s
+
+Courant Number Mean/Max = 0.0623892, 0.31746
+deltaT = 8.33333e-06
+Time = 0.00149166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.37738e+07, min(p): 733.78
+max(T): 3717.04, min(T): 119.188
+ExecutionTime = 69.6 s  ClockTime = 70 s
+
+Courant Number Mean/Max = 0.0625208, 0.318725
+deltaT = 8.33333e-06
+Time = 0.0015
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.31462e+07, min(p): 719.216
+max(T): 3681.94, min(T): 118.773
+ExecutionTime = 70.22 s  ClockTime = 71 s
+
+Selected 322 cells for refinement out of 80662.
+Refined from 80662 to 82916 cells.
+Selected 0 split points out of a possible 9839.
+Maximum imbalance = 7.58358 %
+Courant Number Mean/Max = 0.0631214, 0.320005
+deltaT = 8.33333e-06
+Time = 0.00150833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.25397e+07, min(p): 705.417
+max(T): 3647.25, min(T): 118.379
+ExecutionTime = 71.26 s  ClockTime = 72 s
+
+Courant Number Mean/Max = 0.0632542, 0.321016
+deltaT = 8.33333e-06
+Time = 0.00151666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.19525e+07, min(p): 692.408
+max(T): 3612.54, min(T): 118.008
+ExecutionTime = 71.87 s  ClockTime = 72 s
+
+Courant Number Mean/Max = 0.0633878, 0.32236
+deltaT = 8.33333e-06
+Time = 0.001525
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.13838e+07, min(p): 680.246
+max(T): 3582.79, min(T): 117.628
+ExecutionTime = 72.46 s  ClockTime = 73 s
+
+Selected 159 cells for refinement out of 82916.
+Refined from 82916 to 84029 cells.
+Selected 9 split points out of a possible 9965.
+Unrefined from 84029 to 83966 cells.
+Courant Number Mean/Max = 0.0636894, 0.324135
+deltaT = 8.33333e-06
+Time = 0.00153333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.08332e+07, min(p): 669.06
+max(T): 3552.43, min(T): 117.175
+ExecutionTime = 73.34 s  ClockTime = 74 s
+
+Courant Number Mean/Max = 0.0638234, 0.325576
+deltaT = 8.33333e-06
+Time = 0.00154166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.03017e+07, min(p): 659.158
+max(T): 3521.51, min(T): 116.732
+ExecutionTime = 73.95 s  ClockTime = 74 s
+
+Courant Number Mean/Max = 0.0639571, 0.326697
+deltaT = 8.33333e-06
+Time = 0.00155
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.83728e+06, min(p): 647.527
+max(T): 3490.25, min(T): 116.306
+ExecutionTime = 74.58 s  ClockTime = 75 s
+
+Selected 173 cells for refinement out of 83966.
+Refined from 83966 to 85177 cells.
+Selected 1 split points out of a possible 10124.
+Unrefined from 85177 to 85170 cells.
+Courant Number Mean/Max = 0.0643241, 0.32755
+deltaT = 8.33333e-06
+Time = 0.00155833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.42651e+06, min(p): 634.927
+max(T): 3458.81, min(T): 115.903
+ExecutionTime = 75.5 s  ClockTime = 76 s
+
+Courant Number Mean/Max = 0.0644576, 0.328168
+deltaT = 8.33333e-06
+Time = 0.00156666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 9.03498e+06, min(p): 622.868
+max(T): 3427.24, min(T): 115.525
+ExecutionTime = 76.13 s  ClockTime = 77 s
+
+Courant Number Mean/Max = 0.0645912, 0.328566
+deltaT = 8.33333e-06
+Time = 0.001575
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.66119e+06, min(p): 611.459
+max(T): 3395.71, min(T): 115.169
+ExecutionTime = 76.74 s  ClockTime = 77 s
+
+Selected 207 cells for refinement out of 85170.
+Refined from 85170 to 86619 cells.
+Selected 0 split points out of a possible 10312.
+Maximum imbalance = 8.39885 %
+Courant Number Mean/Max = 0.0649963, 0.328756
+deltaT = 8.33333e-06
+Time = 0.00158333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 8.30105e+06, min(p): 600.728
+max(T): 3364.39, min(T): 114.836
+ExecutionTime = 77.52 s  ClockTime = 78 s
+
+Courant Number Mean/Max = 0.0651314, 0.32975
+deltaT = 8.33333e-06
+Time = 0.00159166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.95453e+06, min(p): 590.713
+max(T): 3337.55, min(T): 114.432
+ExecutionTime = 78.15 s  ClockTime = 79 s
+
+Courant Number Mean/Max = 0.0652666, 0.331241
+deltaT = 8.33333e-06
+Time = 0.0016
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.64029e+06, min(p): 581.509
+max(T): 3313.97, min(T): 114.01
+ExecutionTime = 78.78 s  ClockTime = 79 s
+
+Selected 243 cells for refinement out of 86619.
+Refined from 86619 to 88320 cells.
+Selected 0 split points out of a possible 10521.
+Courant Number Mean/Max = 0.0657784, 0.332351
+deltaT = 8.33333e-06
+Time = 0.00160833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.41207e+06, min(p): 573.366
+max(T): 3289.15, min(T): 113.6
+ExecutionTime = 79.65 s  ClockTime = 80 s
+
+Courant Number Mean/Max = 0.0659124, 0.333133
+deltaT = 8.33333e-06
+Time = 0.00161666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 7.18166e+06, min(p): 563.193
+max(T): 3263.68, min(T): 113.205
+ExecutionTime = 80.28 s  ClockTime = 81 s
+
+Courant Number Mean/Max = 0.066046, 0.333638
+deltaT = 8.33333e-06
+Time = 0.001625
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.95017e+06, min(p): 552.718
+max(T): 3237.89, min(T): 112.835
+ExecutionTime = 80.96 s  ClockTime = 81 s
+
+Selected 201 cells for refinement out of 88320.
+Refined from 88320 to 89727 cells.
+Selected 0 split points out of a possible 10705.
+Courant Number Mean/Max = 0.0664826, 0.333889
+deltaT = 8.33333e-06
+Time = 0.00163333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.71867e+06, min(p): 542.514
+max(T): 3211.9, min(T): 112.491
+ExecutionTime = 81.88 s  ClockTime = 82 s
+
+Courant Number Mean/Max = 0.0666161, 0.333899
+deltaT = 8.33333e-06
+Time = 0.00164166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.53043e+06, min(p): 532.805
+max(T): 3185.82, min(T): 112.169
+ExecutionTime = 82.64 s  ClockTime = 83 s
+
+Courant Number Mean/Max = 0.0667494, 0.333692
+deltaT = 8.33333e-06
+Time = 0.00165
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.34122e+06, min(p): 524.036
+max(T): 3159.7, min(T): 111.836
+ExecutionTime = 83.45 s  ClockTime = 84 s
+
+Selected 236 cells for refinement out of 89727.
+Refined from 89727 to 91379 cells.
+Selected 0 split points out of a possible 10905.
+Maximum imbalance = 9.67728 %
+Courant Number Mean/Max = 0.067224, 0.333313
+deltaT = 8.33333e-06
+Time = 0.00165833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 6.14854e+06, min(p): 516.148
+max(T): 3133.61, min(T): 111.435
+ExecutionTime = 84.44 s  ClockTime = 85 s
+
+Courant Number Mean/Max = 0.0673577, 0.333681
+deltaT = 8.33333e-06
+Time = 0.00166666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.96124e+06, min(p): 508.588
+max(T): 3108.78, min(T): 111.043
+ExecutionTime = 85.4 s  ClockTime = 86 s
+
+Courant Number Mean/Max = 0.0674909, 0.334632
+deltaT = 8.33333e-06
+Time = 0.001675
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.81766e+06, min(p): 499.586
+max(T): 3092.55, min(T): 110.663
+ExecutionTime = 86.35 s  ClockTime = 87 s
+
+Selected 290 cells for refinement out of 91379.
+Refined from 91379 to 93409 cells.
+Selected 0 split points out of a possible 11165.
+Courant Number Mean/Max = 0.0681291, 0.335361
+deltaT = 8.33333e-06
+Time = 0.00168333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.69172e+06, min(p): 489.294
+max(T): 3074.63, min(T): 110.3
+ExecutionTime = 87.61 s  ClockTime = 88 s
+
+Courant Number Mean/Max = 0.0682622, 0.335737
+deltaT = 8.33333e-06
+Time = 0.00169166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.56888e+06, min(p): 479.359
+max(T): 3055.17, min(T): 109.962
+ExecutionTime = 88.6 s  ClockTime = 89 s
+
+Courant Number Mean/Max = 0.0683949, 0.337481
+deltaT = 8.33333e-06
+Time = 0.0017
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.44108e+06, min(p): 469.86
+max(T): 3034.98, min(T): 109.65
+ExecutionTime = 89.29 s  ClockTime = 90 s
+
+Selected 175 cells for refinement out of 93409.
+Refined from 93409 to 94634 cells.
+Selected 0 split points out of a possible 11330.
+Courant Number Mean/Max = 0.0687474, 0.339775
+deltaT = 8.33333e-06
+Time = 0.00170833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.30819e+06, min(p): 460.958
+max(T): 3014.28, min(T): 109.278
+ExecutionTime = 90.22 s  ClockTime = 91 s
+
+Courant Number Mean/Max = 0.0688797, 0.343684
+deltaT = 8.33333e-06
+Time = 0.00171666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.17216e+06, min(p): 452.853
+max(T): 2993.18, min(T): 108.879
+ExecutionTime = 90.9 s  ClockTime = 91 s
+
+Courant Number Mean/Max = 0.0690124, 0.347133
+deltaT = 8.33333e-06
+Time = 0.001725
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 5.03411e+06, min(p): 445.347
+max(T): 2971.78, min(T): 108.491
+ExecutionTime = 91.59 s  ClockTime = 92 s
+
+Selected 243 cells for refinement out of 94634.
+Refined from 94634 to 96335 cells.
+Selected 0 split points out of a possible 11552.
+Maximum imbalance = 10.6908 %
+Courant Number Mean/Max = 0.069513, 0.350097
+deltaT = 8.33333e-06
+Time = 0.00173333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.89436e+06, min(p): 436.083
+max(T): 2950.13, min(T): 108.114
+ExecutionTime = 92.71 s  ClockTime = 93 s
+
+Courant Number Mean/Max = 0.0696455, 0.352645
+deltaT = 8.33333e-06
+Time = 0.00174166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.75366e+06, min(p): 427.458
+max(T): 2930.08, min(T): 107.75
+ExecutionTime = 93.55 s  ClockTime = 94 s
+
+Courant Number Mean/Max = 0.0697772, 0.354804
+deltaT = 8.33333e-06
+Time = 0.00175
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.61279e+06, min(p): 419.704
+max(T): 2916.93, min(T): 107.404
+ExecutionTime = 94.3 s  ClockTime = 95 s
+
+Selected 234 cells for refinement out of 96335.
+Refined from 96335 to 97973 cells.
+Selected 0 split points out of a possible 11780.
+Courant Number Mean/Max = 0.0702836, 0.356634
+deltaT = 8.33333e-06
+Time = 0.00175833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.49151e+06, min(p): 412.514
+max(T): 2903.17, min(T): 107.085
+ExecutionTime = 95.3 s  ClockTime = 96 s
+
+Courant Number Mean/Max = 0.0704139, 0.358222
+deltaT = 8.33333e-06
+Time = 0.00176666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.37658e+06, min(p): 405.6
+max(T): 2888.77, min(T): 106.793
+ExecutionTime = 95.99 s  ClockTime = 96 s
+
+Courant Number Mean/Max = 0.0705438, 0.36055
+deltaT = 8.33333e-06
+Time = 0.001775
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.26091e+06, min(p): 399.705
+max(T): 2873.48, min(T): 106.524
+ExecutionTime = 96.72 s  ClockTime = 97 s
+
+Selected 166 cells for refinement out of 97973.
+Refined from 97973 to 99135 cells.
+Selected 0 split points out of a possible 11926.
+Courant Number Mean/Max = 0.0709128, 0.362569
+deltaT = 8.33333e-06
+Time = 0.00178333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.1449e+06, min(p): 393.36
+max(T): 2856.97, min(T): 106.282
+ExecutionTime = 97.6 s  ClockTime = 98 s
+
+Courant Number Mean/Max = 0.0710431, 0.366204
+deltaT = 8.33333e-06
+Time = 0.00179166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 4.03936e+06, min(p): 387.019
+max(T): 2839.43, min(T): 106.07
+ExecutionTime = 98.3 s  ClockTime = 99 s
+
+Courant Number Mean/Max = 0.0711732, 0.369298
+deltaT = 8.33333e-06
+Time = 0.0018
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.94026e+06, min(p): 381.803
+max(T): 2821.4, min(T): 105.915
+ExecutionTime = 99.02 s  ClockTime = 99 s
+
+Selected 307 cells for refinement out of 99135.
+Refined from 99135 to 101284 cells.
+Selected 0 split points out of a possible 12175.
+Maximum imbalance = 11.3779 %
+Courant Number Mean/Max = 0.0717425, 0.371901
+deltaT = 8.33333e-06
+Time = 0.00180833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.84081e+06, min(p): 378.038
+max(T): 2802.95, min(T): 105.857
+ExecutionTime = 100.02 s  ClockTime = 100 s
+
+Courant Number Mean/Max = 0.0718722, 0.374028
+deltaT = 8.33333e-06
+Time = 0.00181666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.7416e+06, min(p): 375.142
+max(T): 2784.06, min(T): 105.95
+ExecutionTime = 100.77 s  ClockTime = 101 s
+
+Courant Number Mean/Max = 0.0720015, 0.375747
+deltaT = 8.33333e-06
+Time = 0.001825
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.64252e+06, min(p): 372.448
+max(T): 2766.9, min(T): 106.253
+ExecutionTime = 101.55 s  ClockTime = 102 s
+
+Selected 193 cells for refinement out of 101284.
+Refined from 101284 to 102635 cells.
+Selected 0 split points out of a possible 12332.
+Courant Number Mean/Max = 0.0723678, 0.377739
+deltaT = 8.33333e-06
+Time = 0.00183333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.54362e+06, min(p): 370.688
+max(T): 2755.52, min(T): 106.709
+ExecutionTime = 102.48 s  ClockTime = 103 s
+
+Courant Number Mean/Max = 0.0724964, 0.379839
+deltaT = 8.33333e-06
+Time = 0.00184166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.44478e+06, min(p): 370.108
+max(T): 2743.68, min(T): 107.242
+ExecutionTime = 103.25 s  ClockTime = 104 s
+
+Courant Number Mean/Max = 0.0726247, 0.381535
+deltaT = 8.33333e-06
+Time = 0.00185
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.34592e+06, min(p): 371.221
+max(T): 2731.35, min(T): 107.947
+ExecutionTime = 104.02 s  ClockTime = 104 s
+
+Selected 185 cells for refinement out of 102635.
+Refined from 102635 to 103930 cells.
+Selected 0 split points out of a possible 12481.
+Courant Number Mean/Max = 0.0730359, 0.38289
+deltaT = 8.33333e-06
+Time = 0.00185833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.25687e+06, min(p): 376.874
+max(T): 2718.39, min(T): 109.18
+ExecutionTime = 104.99 s  ClockTime = 105 s
+
+Courant Number Mean/Max = 0.0731641, 0.385876
+deltaT = 8.33333e-06
+Time = 0.00186666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.16891e+06, min(p): 384.98
+max(T): 2704.7, min(T): 111.596
+ExecutionTime = 105.74 s  ClockTime = 106 s
+
+Courant Number Mean/Max = 0.0732916, 0.388518
+deltaT = 8.33333e-06
+Time = 0.001875
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.08201e+06, min(p): 398.904
+max(T): 2690.07, min(T): 115.714
+ExecutionTime = 106.49 s  ClockTime = 107 s
+
+Selected 231 cells for refinement out of 103930.
+Refined from 103930 to 105547 cells.
+Selected 0 split points out of a possible 12705.
+Maximum imbalance = 12.0392 %
+Courant Number Mean/Max = 0.073799, 0.390662
+deltaT = 8.33333e-06
+Time = 0.00188333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 3.00567e+06, min(p): 421.267
+max(T): 2674.52, min(T): 121.963
+ExecutionTime = 107.45 s  ClockTime = 108 s
+
+Courant Number Mean/Max = 0.0739253, 0.392358
+deltaT = 8.33333e-06
+Time = 0.00189166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.92973e+06, min(p): 456.296
+max(T): 2661.98, min(T): 131.078
+ExecutionTime = 108.25 s  ClockTime = 109 s
+
+Courant Number Mean/Max = 0.0740514, 0.394856
+deltaT = 8.33333e-06
+Time = 0.0019
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.85435e+06, min(p): 513.921
+max(T): 2653.34, min(T): 144.786
+ExecutionTime = 109.06 s  ClockTime = 109 s
+
+Selected 237 cells for refinement out of 105547.
+Refined from 105547 to 107206 cells.
+Selected 0 split points out of a possible 12912.
+Courant Number Mean/Max = 0.0744642, 0.396833
+deltaT = 8.33333e-06
+Time = 0.00190833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.7795e+06, min(p): 600.433
+max(T): 2644.4, min(T): 163.623
+ExecutionTime = 110.16 s  ClockTime = 111 s
+
+Courant Number Mean/Max = 0.0745892, 0.398316
+deltaT = 8.33333e-06
+Time = 0.00191666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.70753e+06, min(p): 722.83
+max(T): 2635.26, min(T): 187.26
+ExecutionTime = 111 s  ClockTime = 111 s
+
+Courant Number Mean/Max = 0.0747141, 0.399386
+deltaT = 8.33333e-06
+Time = 0.001925
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.63692e+06, min(p): 878.83
+max(T): 2625.95, min(T): 213.793
+ExecutionTime = 111.87 s  ClockTime = 112 s
+
+Selected 231 cells for refinement out of 107206.
+Refined from 107206 to 108823 cells.
+Selected 0 split points out of a possible 13121.
+Courant Number Mean/Max = 0.0751515, 0.400116
+deltaT = 8.33333e-06
+Time = 0.00193333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.56904e+06, min(p): 1073.06
+max(T): 2616.52, min(T): 241.991
+ExecutionTime = 112.89 s  ClockTime = 113 s
+
+Courant Number Mean/Max = 0.0752754, 0.401612
+deltaT = 8.33333e-06
+Time = 0.00194166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.50609e+06, min(p): 1283.85
+max(T): 2607.06, min(T): 271.092
+ExecutionTime = 113.74 s  ClockTime = 114 s
+
+Courant Number Mean/Max = 0.0753988, 0.403835
+deltaT = 8.33333e-06
+Time = 0.00195
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.4431e+06, min(p): 1525.86
+max(T): 2597.61, min(T): 287.926
+ExecutionTime = 114.66 s  ClockTime = 115 s
+
+Selected 254 cells for refinement out of 108823.
+Refined from 108823 to 110601 cells.
+Selected 0 split points out of a possible 13348.
+Maximum imbalance = 12.489 %
+Courant Number Mean/Max = 0.0758877, 0.405604
+deltaT = 8.33333e-06
+Time = 0.00195833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.38035e+06, min(p): 1834.9
+max(T): 2589.3, min(T): 287.926
+ExecutionTime = 115.99 s  ClockTime = 116 s
+
+Courant Number Mean/Max = 0.0760095, 0.406973
+deltaT = 8.33333e-06
+Time = 0.00196666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.31807e+06, min(p): 2207.53
+max(T): 2582.33, min(T): 287.926
+ExecutionTime = 116.87 s  ClockTime = 117 s
+
+Courant Number Mean/Max = 0.0761311, 0.407988
+deltaT = 8.33333e-06
+Time = 0.001975
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.25833e+06, min(p): 2617.34
+max(T): 2575.12, min(T): 287.926
+ExecutionTime = 117.7 s  ClockTime = 118 s
+
+Selected 201 cells for refinement out of 110601.
+Refined from 110601 to 112008 cells.
+Selected 0 split points out of a possible 13505.
+Courant Number Mean/Max = 0.0765716, 0.409024
+deltaT = 8.33333e-06
+Time = 0.00198333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.20102e+06, min(p): 3082.88
+max(T): 2567.68, min(T): 287.926
+ExecutionTime = 118.8 s  ClockTime = 119 s
+
+Courant Number Mean/Max = 0.0766923, 0.410293
+deltaT = 8.33333e-06
+Time = 0.00199166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.14406e+06, min(p): 3606.03
+max(T): 2560.03, min(T): 287.926
+ExecutionTime = 119.71 s  ClockTime = 120 s
+
+Courant Number Mean/Max = 0.0768128, 0.411159
+deltaT = 8.33333e-06
+Time = 0.002
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.09136e+06, min(p): 4180.9
+max(T): 2552.16, min(T): 287.926
+ExecutionTime = 120.61 s  ClockTime = 121 s
+
+Selected 154 cells for refinement out of 112008.
+Refined from 112008 to 113086 cells.
+Selected 0 split points out of a possible 13647.
+Courant Number Mean/Max = 0.0771439, 0.411707
+deltaT = 8.33333e-06
+Time = 0.00200833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 2.03974e+06, min(p): 4813.37
+max(T): 2544.11, min(T): 287.926
+ExecutionTime = 121.77 s  ClockTime = 122 s
+
+Courant Number Mean/Max = 0.0772638, 0.411988
+deltaT = 8.33333e-06
+Time = 0.00201666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.98821e+06, min(p): 5516.4
+max(T): 2535.91, min(T): 287.926
+ExecutionTime = 122.75 s  ClockTime = 123 s
+
+Courant Number Mean/Max = 0.0773836, 0.413626
+deltaT = 8.33333e-06
+Time = 0.002025
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.93924e+06, min(p): 6311.45
+max(T): 2527.29, min(T): 287.926
+ExecutionTime = 123.71 s  ClockTime = 124 s
+
+Selected 259 cells for refinement out of 113086.
+Refined from 113086 to 114899 cells.
+Selected 0 split points out of a possible 13884.
+Maximum imbalance = 13.2038 %
+Courant Number Mean/Max = 0.0779107, 0.415274
+deltaT = 8.33333e-06
+Time = 0.00203333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.89311e+06, min(p): 7258.99
+max(T): 2518.08, min(T): 287.926
+ExecutionTime = 124.85 s  ClockTime = 125 s
+
+Courant Number Mean/Max = 0.0780302, 0.416536
+deltaT = 8.33333e-06
+Time = 0.00204166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.84728e+06, min(p): 8511.59
+max(T): 2508.48, min(T): 287.926
+ExecutionTime = 125.72 s  ClockTime = 126 s
+
+Courant Number Mean/Max = 0.0781495, 0.417458
+deltaT = 8.33333e-06
+Time = 0.00205
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.80181e+06, min(p): 10242.4
+max(T): 2498.56, min(T): 287.926
+ExecutionTime = 126.61 s  ClockTime = 127 s
+
+Selected 304 cells for refinement out of 114899.
+Refined from 114899 to 117027 cells.
+Selected 0 split points out of a possible 14156.
+Courant Number Mean/Max = 0.0787795, 0.418083
+deltaT = 8.33333e-06
+Time = 0.00205833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.76018e+06, min(p): 10897.7
+max(T): 2488.49, min(T): 287.926
+ExecutionTime = 127.76 s  ClockTime = 128 s
+
+Courant Number Mean/Max = 0.078899, 0.418458
+deltaT = 8.33333e-06
+Time = 0.00206666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.7199e+06, min(p): 11149.7
+max(T): 2478.26, min(T): 287.926
+ExecutionTime = 128.66 s  ClockTime = 129 s
+
+Courant Number Mean/Max = 0.0790184, 0.418604
+deltaT = 8.33333e-06
+Time = 0.002075
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.68083e+06, min(p): 11416
+max(T): 2467.91, min(T): 287.926
+ExecutionTime = 129.53 s  ClockTime = 130 s
+
+Selected 195 cells for refinement out of 117027.
+Refined from 117027 to 118392 cells.
+Selected 0 split points out of a possible 14333.
+Courant Number Mean/Max = 0.0793989, 0.418529
+deltaT = 8.33333e-06
+Time = 0.00208333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.64327e+06, min(p): 11702.8
+max(T): 2460.78, min(T): 287.926
+ExecutionTime = 130.69 s  ClockTime = 131 s
+
+Courant Number Mean/Max = 0.0795181, 0.418254
+deltaT = 8.33333e-06
+Time = 0.00209166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.60571e+06, min(p): 12009.2
+max(T): 2453.12, min(T): 287.926
+ExecutionTime = 131.55 s  ClockTime = 132 s
+
+Courant Number Mean/Max = 0.0796372, 0.417811
+deltaT = 8.33333e-06
+Time = 0.0021
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.56822e+06, min(p): 12324
+max(T): 2444.99, min(T): 287.926
+ExecutionTime = 132.45 s  ClockTime = 133 s
+
+Selected 189 cells for refinement out of 118392.
+Refined from 118392 to 119715 cells.
+Selected 0 split points out of a possible 14500.
+Maximum imbalance = 13.6315 %
+Courant Number Mean/Max = 0.0800431, 0.417214
+deltaT = 8.33333e-06
+Time = 0.00210833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.53093e+06, min(p): 12662.1
+max(T): 2436.5, min(T): 287.926
+ExecutionTime = 133.65 s  ClockTime = 134 s
+
+Courant Number Mean/Max = 0.080162, 0.416463
+deltaT = 8.33333e-06
+Time = 0.00211666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.49388e+06, min(p): 12957.8
+max(T): 2427.71, min(T): 287.926
+ExecutionTime = 134.54 s  ClockTime = 135 s
+
+Courant Number Mean/Max = 0.0802808, 0.416714
+deltaT = 8.33333e-06
+Time = 0.002125
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.4601e+06, min(p): 12753.7
+max(T): 2418.61, min(T): 287.926
+ExecutionTime = 135.43 s  ClockTime = 136 s
+
+Selected 200 cells for refinement out of 119715.
+Refined from 119715 to 121115 cells.
+Selected 0 split points out of a possible 14682.
+Courant Number Mean/Max = 0.080634, 0.416883
+deltaT = 8.33333e-06
+Time = 0.00213333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.42802e+06, min(p): 12554.6
+max(T): 2409.23, min(T): 287.926
+ExecutionTime = 136.56 s  ClockTime = 137 s
+
+Courant Number Mean/Max = 0.0807526, 0.416849
+deltaT = 8.33333e-06
+Time = 0.00214166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.39812e+06, min(p): 12362
+max(T): 2399.66, min(T): 287.926
+ExecutionTime = 137.45 s  ClockTime = 138 s
+
+Courant Number Mean/Max = 0.0808711, 0.416645
+deltaT = 8.33333e-06
+Time = 0.00215
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.36789e+06, min(p): 12179
+max(T): 2389.96, min(T): 287.926
+ExecutionTime = 138.39 s  ClockTime = 139 s
+
+Selected 218 cells for refinement out of 121115.
+Refined from 121115 to 122641 cells.
+Selected 0 split points out of a possible 14872.
+Courant Number Mean/Max = 0.0813079, 0.4163
+deltaT = 8.33333e-06
+Time = 0.00215833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.3377e+06, min(p): 12012
+max(T): 2380.15, min(T): 287.926
+ExecutionTime = 139.57 s  ClockTime = 140 s
+
+Courant Number Mean/Max = 0.0814264, 0.416116
+deltaT = 8.33333e-06
+Time = 0.00216666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.30764e+06, min(p): 11836.1
+max(T): 2370.29, min(T): 287.926
+ExecutionTime = 140.51 s  ClockTime = 141 s
+
+Courant Number Mean/Max = 0.0815449, 0.416195
+deltaT = 8.33333e-06
+Time = 0.002175
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.27772e+06, min(p): 11645.4
+max(T): 2360.4, min(T): 287.926
+ExecutionTime = 141.44 s  ClockTime = 142 s
+
+Selected 232 cells for refinement out of 122641.
+Refined from 122641 to 124265 cells.
+Selected 0 split points out of a possible 15070.
+Maximum imbalance = 13.9098 %
+Courant Number Mean/Max = 0.0819741, 0.416089
+deltaT = 8.33333e-06
+Time = 0.00218333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.24926e+06, min(p): 11464.3
+max(T): 2350.52, min(T): 287.926
+ExecutionTime = 142.57 s  ClockTime = 143 s
+
+Courant Number Mean/Max = 0.0820926, 0.415805
+deltaT = 8.33333e-06
+Time = 0.00219166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.22158e+06, min(p): 11293.3
+max(T): 2340.76, min(T): 287.926
+ExecutionTime = 143.48 s  ClockTime = 144 s
+
+Courant Number Mean/Max = 0.0822111, 0.415353
+deltaT = 8.33333e-06
+Time = 0.0022
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.19403e+06, min(p): 11133.6
+max(T): 2331.19, min(T): 287.926
+ExecutionTime = 144.43 s  ClockTime = 145 s
+
+Selected 215 cells for refinement out of 124265.
+Refined from 124265 to 125770 cells.
+Selected 0 split points out of a possible 15269.
+Courant Number Mean/Max = 0.0826802, 0.414764
+deltaT = 8.33333e-06
+Time = 0.00220833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.16748e+06, min(p): 10984.8
+max(T): 2322.74, min(T): 287.926
+ExecutionTime = 145.74 s  ClockTime = 146 s
+
+Courant Number Mean/Max = 0.0827988, 0.414069
+deltaT = 8.33333e-06
+Time = 0.00221666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.14247e+06, min(p): 10848.3
+max(T): 2314.13, min(T): 287.926
+ExecutionTime = 146.69 s  ClockTime = 147 s
+
+Courant Number Mean/Max = 0.0829173, 0.41328
+deltaT = 8.33333e-06
+Time = 0.002225
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.11922e+06, min(p): 10730.8
+max(T): 2305.4, min(T): 287.926
+ExecutionTime = 147.67 s  ClockTime = 148 s
+
+Selected 229 cells for refinement out of 125770.
+Refined from 125770 to 127373 cells.
+Selected 0 split points out of a possible 15462.
+Courant Number Mean/Max = 0.0833724, 0.412404
+deltaT = 8.33333e-06
+Time = 0.00223333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.09647e+06, min(p): 10594.7
+max(T): 2312.28, min(T): 287.926
+ExecutionTime = 148.83 s  ClockTime = 149 s
+
+Courant Number Mean/Max = 0.0834909, 0.411464
+deltaT = 8.33333e-06
+Time = 0.00224166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0737e+06, min(p): 10450
+max(T): 2318.39, min(T): 287.926
+ExecutionTime = 149.77 s  ClockTime = 150 s
+
+Courant Number Mean/Max = 0.0836094, 0.41048
+deltaT = 8.33333e-06
+Time = 0.00225
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.05097e+06, min(p): 10317.8
+max(T): 2321.58, min(T): 287.926
+ExecutionTime = 150.73 s  ClockTime = 151 s
+
+Selected 255 cells for refinement out of 127373.
+Refined from 127373 to 129158 cells.
+Selected 0 split points out of a possible 15674.
+Maximum imbalance = 14.3313 %
+Courant Number Mean/Max = 0.0841083, 0.410085
+deltaT = 8.33333e-06
+Time = 0.00225833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.02844e+06, min(p): 10204
+max(T): 2322.02, min(T): 287.926
+ExecutionTime = 152.12 s  ClockTime = 153 s
+
+Courant Number Mean/Max = 0.0842266, 0.409822
+deltaT = 8.33333e-06
+Time = 0.00226666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 1.0065e+06, min(p): 10061.6
+max(T): 2323.74, min(T): 287.926
+ExecutionTime = 153.1 s  ClockTime = 154 s
+
+Courant Number Mean/Max = 0.0843447, 0.409438
+deltaT = 8.33333e-06
+Time = 0.002275
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 985396, min(p): 9914.59
+max(T): 2330.9, min(T): 287.926
+ExecutionTime = 154.15 s  ClockTime = 155 s
+
+Selected 238 cells for refinement out of 129158.
+Refined from 129158 to 130824 cells.
+Selected 0 split points out of a possible 15886.
+Courant Number Mean/Max = 0.0847733, 0.408936
+deltaT = 8.33333e-06
+Time = 0.00228333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 964373, min(p): 9776.56
+max(T): 2339.58, min(T): 287.926
+ExecutionTime = 155.42 s  ClockTime = 156 s
+
+Courant Number Mean/Max = 0.0848914, 0.408327
+deltaT = 8.33333e-06
+Time = 0.00229166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 955448, min(p): 9648.25
+max(T): 2345.76, min(T): 287.926
+ExecutionTime = 156.4 s  ClockTime = 157 s
+
+Courant Number Mean/Max = 0.0850097, 0.407641
+deltaT = 8.33333e-06
+Time = 0.0023
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 954210, min(p): 9529.73
+max(T): 2350.18, min(T): 287.926
+ExecutionTime = 157.42 s  ClockTime = 158 s
+
+Selected 161 cells for refinement out of 130824.
+Refined from 130824 to 131951 cells.
+Selected 0 split points out of a possible 16028.
+Courant Number Mean/Max = 0.0853334, 0.406905
+deltaT = 8.33333e-06
+Time = 0.00230833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 951727, min(p): 9425.62
+max(T): 2352.96, min(T): 287.926
+ExecutionTime = 158.72 s  ClockTime = 159 s
+
+Courant Number Mean/Max = 0.0854518, 0.406122
+deltaT = 8.33333e-06
+Time = 0.00231666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 947931, min(p): 9349.9
+max(T): 2353.68, min(T): 287.926
+ExecutionTime = 159.72 s  ClockTime = 160 s
+
+Courant Number Mean/Max = 0.0855701, 0.405286
+deltaT = 8.33333e-06
+Time = 0.002325
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 942612, min(p): 9227
+max(T): 2351.97, min(T): 287.926
+ExecutionTime = 160.72 s  ClockTime = 161 s
+
+Selected 236 cells for refinement out of 131951.
+Refined from 131951 to 133603 cells.
+Selected 0 split points out of a possible 16256.
+Maximum imbalance = 14.5199 %
+Courant Number Mean/Max = 0.0860518, 0.404391
+deltaT = 8.33333e-06
+Time = 0.00233333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 936020, min(p): 9109.49
+max(T): 2348.49, min(T): 287.926
+ExecutionTime = 161.94 s  ClockTime = 162 s
+
+Courant Number Mean/Max = 0.0861701, 0.403444
+deltaT = 8.33333e-06
+Time = 0.00234166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 929964, min(p): 9002.61
+max(T): 2344.66, min(T): 287.926
+ExecutionTime = 162.94 s  ClockTime = 163 s
+
+Courant Number Mean/Max = 0.0862884, 0.402455
+deltaT = 8.33333e-06
+Time = 0.00235
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 923072, min(p): 8912.72
+max(T): 2348.1, min(T): 287.926
+ExecutionTime = 163.95 s  ClockTime = 164 s
+
+Selected 228 cells for refinement out of 133603.
+Refined from 133603 to 135199 cells.
+Selected 0 split points out of a possible 16465.
+Courant Number Mean/Max = 0.0867193, 0.401435
+deltaT = 8.33333e-06
+Time = 0.00235833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 922385, min(p): 8819.08
+max(T): 2350.01, min(T): 287.926
+ExecutionTime = 165.24 s  ClockTime = 166 s
+
+Courant Number Mean/Max = 0.0868372, 0.400392
+deltaT = 8.33333e-06
+Time = 0.00236666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 920422, min(p): 8697.93
+max(T): 2350.48, min(T): 287.926
+ExecutionTime = 166.27 s  ClockTime = 167 s
+
+Courant Number Mean/Max = 0.0869548, 0.399328
+deltaT = 8.33333e-06
+Time = 0.002375
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 918485, min(p): 8585.06
+max(T): 2355.34, min(T): 287.926
+ExecutionTime = 167.28 s  ClockTime = 168 s
+
+Selected 179 cells for refinement out of 135199.
+Refined from 135199 to 136452 cells.
+Selected 0 split points out of a possible 16629.
+Courant Number Mean/Max = 0.0873097, 0.398246
+deltaT = 8.33333e-06
+Time = 0.00238333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 916007, min(p): 8480.8
+max(T): 2359.79, min(T): 287.926
+ExecutionTime = 168.52 s  ClockTime = 169 s
+
+Courant Number Mean/Max = 0.0874267, 0.397153
+deltaT = 8.33333e-06
+Time = 0.00239166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 912283, min(p): 8389.28
+max(T): 2364.24, min(T): 287.926
+ExecutionTime = 169.54 s  ClockTime = 170 s
+
+Courant Number Mean/Max = 0.0875435, 0.396045
+deltaT = 8.33333e-06
+Time = 0.0024
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 907430, min(p): 8321.27
+max(T): 2367.29, min(T): 287.926
+ExecutionTime = 170.58 s  ClockTime = 171 s
+
+Selected 231 cells for refinement out of 136452.
+Refined from 136452 to 138069 cells.
+Selected 0 split points out of a possible 16820.
+Maximum imbalance = 14.7904 %
+Courant Number Mean/Max = 0.0880118, 0.395119
+deltaT = 8.33333e-06
+Time = 0.00240833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 901362, min(p): 8276.26
+max(T): 2368.12, min(T): 287.926
+ExecutionTime = 171.9 s  ClockTime = 172 s
+
+Courant Number Mean/Max = 0.0881284, 0.394587
+deltaT = 8.33333e-06
+Time = 0.00241666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 893998, min(p): 8172.78
+max(T): 2367.28, min(T): 287.926
+ExecutionTime = 172.94 s  ClockTime = 173 s
+
+Courant Number Mean/Max = 0.0882448, 0.394014
+deltaT = 8.33333e-06
+Time = 0.002425
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 892096, min(p): 8078.02
+max(T): 2365.02, min(T): 287.926
+ExecutionTime = 174.03 s  ClockTime = 174 s
+
+Selected 272 cells for refinement out of 138069.
+Refined from 138069 to 139973 cells.
+Selected 0 split points out of a possible 17048.
+Courant Number Mean/Max = 0.0887435, 0.393401
+deltaT = 8.33333e-06
+Time = 0.00243333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 890630, min(p): 7995.85
+max(T): 2361.32, min(T): 287.926
+ExecutionTime = 175.34 s  ClockTime = 176 s
+
+Courant Number Mean/Max = 0.088859, 0.392751
+deltaT = 8.33333e-06
+Time = 0.00244166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 889429, min(p): 7937.16
+max(T): 2356.67, min(T): 287.926
+ExecutionTime = 176.41 s  ClockTime = 177 s
+
+Courant Number Mean/Max = 0.0889744, 0.392061
+deltaT = 8.33333e-06
+Time = 0.00245
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 887475, min(p): 7901.06
+max(T): 2358.55, min(T): 287.926
+ExecutionTime = 177.57 s  ClockTime = 178 s
+
+Selected 169 cells for refinement out of 139973.
+Refined from 139973 to 141156 cells.
+Selected 0 split points out of a possible 17195.
+Courant Number Mean/Max = 0.0893292, 0.391316
+deltaT = 8.33333e-06
+Time = 0.00245833333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 884528, min(p): 7812.69
+max(T): 2360.15, min(T): 287.926
+ExecutionTime = 179.13 s  ClockTime = 180 s
+
+Courant Number Mean/Max = 0.0894441, 0.390513
+deltaT = 8.33333e-06
+Time = 0.00246666666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 880391, min(p): 7723.78
+max(T): 2359.93, min(T): 287.926
+ExecutionTime = 180.28 s  ClockTime = 181 s
+
+Courant Number Mean/Max = 0.0895586, 0.389659
+deltaT = 8.33333e-06
+Time = 0.002475
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 874906, min(p): 7647.21
+max(T): 2358, min(T): 287.926
+ExecutionTime = 181.36 s  ClockTime = 182 s
+
+Selected 226 cells for refinement out of 141156.
+Refined from 141156 to 142738 cells.
+Selected 0 split points out of a possible 17410.
+Maximum imbalance = 15.1452 %
+Courant Number Mean/Max = 0.0900093, 0.388761
+deltaT = 8.33333e-06
+Time = 0.00248333333333
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 867960, min(p): 7591.31
+max(T): 2354.83, min(T): 287.926
+ExecutionTime = 182.69 s  ClockTime = 183 s
+
+Courant Number Mean/Max = 0.0901231, 0.388374
+deltaT = 8.33333e-06
+Time = 0.00249166666667
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 865633, min(p): 7559.18
+max(T): 2350.94, min(T): 287.926
+ExecutionTime = 183.85 s  ClockTime = 184 s
+
+Courant Number Mean/Max = 0.0902368, 0.388011
+deltaT = 8.33333e-06
+Time = 0.0025
+
+Calculating Fluxes
+RK2SSP: step 1
+Solving compressibleSystem:
+
+RK2SSP: step 2
+Solving compressibleSystem:
+
+RK2SSP: step 3
+Solving compressibleSystem:
+
+Post-updating compressibleSystem:
+
+max(p): 865878, min(p): 7556
+max(T): 2346.52, min(T): 287.926
+ExecutionTime = 185.19 s  ClockTime = 186 s
+
+End
+
+Finalising parallel run

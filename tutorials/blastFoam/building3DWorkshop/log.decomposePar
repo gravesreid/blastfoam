@@ -1,0 +1,116 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : decomposePar -copyZero
+Date   : Jan 15 2025
+Time   : 16:54:48
+Host   : "mail-18"
+PID    : 154234
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Reading "decomposeParDict"
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 1040
+    Number of faces shared with processor 2 = 130
+    Number of faces shared with processor 5 = 80
+    Number of processor patches = 2
+    Number of processor faces = 210
+    Number of boundary faces = 418
+
+Processor 1
+    Number of cells = 1040
+    Number of faces shared with processor 2 = 130
+    Number of faces shared with processor 3 = 80
+    Number of processor patches = 2
+    Number of processor faces = 210
+    Number of boundary faces = 418
+
+Processor 2
+    Number of cells = 1050
+    Number of faces shared with processor 0 = 130
+    Number of faces shared with processor 1 = 130
+    Number of faces shared with processor 4 = 100
+    Number of processor patches = 3
+    Number of processor faces = 360
+    Number of boundary faces = 290
+
+Processor 3
+    Number of cells = 1040
+    Number of faces shared with processor 1 = 80
+    Number of faces shared with processor 4 = 130
+    Number of processor patches = 2
+    Number of processor faces = 210
+    Number of boundary faces = 418
+
+Processor 4
+    Number of cells = 1040
+    Number of faces shared with processor 2 = 100
+    Number of faces shared with processor 3 = 130
+    Number of faces shared with processor 5 = 130
+    Number of processor patches = 3
+    Number of processor faces = 360
+    Number of boundary faces = 288
+
+Processor 5
+    Number of cells = 1040
+    Number of faces shared with processor 0 = 80
+    Number of faces shared with processor 4 = 130
+    Number of processor patches = 2
+    Number of processor faces = 210
+    Number of boundary faces = 418
+
+Number of processor faces = 780
+Max number of cells = 1050 (0.8% above average 1041.67)
+Max number of processor patches = 3 (28.5714% above average 2.33333)
+Max number of faces between processors = 360 (38.4615% above average 260)
+
+Processor 0: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/processor0/0"
+Processor 1: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/processor1/0"
+Processor 2: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/processor2/0"
+Processor 3: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/processor3/0"
+Processor 4: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/processor4/0"
+Processor 5: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop/processor5/0"
+
+End
+

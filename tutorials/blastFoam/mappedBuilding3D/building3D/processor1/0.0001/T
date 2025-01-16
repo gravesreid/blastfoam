@@ -1,0 +1,124 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      binary;
+    class       volScalarField;
+    location    "0.0001";
+    object      T;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   nonuniform List<scalar> 
+2771
+(¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@à<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@;=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@æ<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@fÞoÏþq@ž†pÏþq@sŽÞoÏþq@/ñ¯Ïþq@/ŒÞoÏþq@ÝpÏþq@„†ÞoÏþq@ìpÏþq@n×ysÏþq@=ÞoÏþq@–ÆÞoÏþq@J±¾pÏþq@ZzsÏþq@¿<ÞoÏþq@=ÞoÏþq@ÁqÞoÏþq@¡ÆpÏþq@/npÏþq@¿<ÞoÏþq@¿<ÞoÏþq@è<ÞoÏþq@mMÞoÏþq@ŒœÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ç<ÞoÏþq@_=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Â<ÞoÏþq@ò<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Æ<ÞoÏþq@Þ>ÞoÏþq@ƒÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@§BÞoÏþq@‰WßoÏþq@<pÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@É<ÞoÏþq@iCÞoÏþq@O”àoÏþq@µ—pÏþq@ÍÛáÑþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Á<ÞoÏþq@e?ÞoÏþq@þ€ßoÏþq@bdpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@ß<ÞoÏþq@ifÞoÏþq@÷­pÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@D=ÞoÏþq@¢dÞoÏþq@ùŒÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@r=ÞoÏþq@ïÞoÏþq@4<pÏþq@ðXpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@C=ÞoÏþq@FëÞoÏþq@F¥pÏþq@?kqÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@ÄdÞoÏþq@ËvpÏþq@E'qÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@=ÞoÏþq@7ÞoÏþq@
+é¯Ïþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@C=ÞoÏþq@ dÞoÏþq@´ŒÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@r=ÞoÏþq@iïÞoÏþq@‚8pÏþq@á+jpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@C=ÞoÏþq@gïÞoÏþq@;¦pÏþq@à~ysÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@¡dÞoÏþq@ä7pÏþq@ªysÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@9=ÞoÏþq@EŒÞoÏþq@ÂÈpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Á<ÞoÏþq@á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@>ÞoÏþq@dÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@M@ÞoÏþq@óßoÏþq@¹ŒpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@L@ÞoÏþq@VAàoÏþq@h
+pÏþq@È‰ÿÐþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Á<ÞoÏþq@#>ÞoÏþq@ßoÏþq@W
+pÏþq@ø&4Ðþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@å<ÞoÏþq@YtÞoÏþq@¹/pÏþq@ˆzsÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ä<ÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@È<ÞoÏþq@ë?ÞoÏþq@O®ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@È<ÞoÏþq@ÊBÞoÏþq@ªàoÏþq@ŠFžpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ä<ÞoÏþq@&@ÞoÏþq@ó:àoÏþq@…¥
+pÏþq@SèÈîÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@?=ÞoÏþq@ôßÞoÏþq@´¤pÏþq@DÇysÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@%=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ê<ÞoÏþq@î?ÞoÏþq@z®ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@Ö?ÞoÏþq@þßoÏþq@Î¦pÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@!=ÞoÏþq@‰dÞoÏþq@”RpÏþq@ûnpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ã<ÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ä<ÞoÏþq@>ÞoÏþq@`dÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@ç<ÞoÏþq@µdÞoÏþq@4ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Á<ÞoÏþq@á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@5=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@…°ÊÑþq@+°&ïÏþq@É`s¬@r@ìÛÔ¥Ïþq@gy“ÿq@‚qÏþq@‡„žîÏþq@.é'ïÏþq@ÙÂËÑþq@´«l¬@r@Ä¤îÏþq@°U–ÿq@ŽwqÏþq@u@Û¥Ïþq@ã¨Üþq@wþ‚sÏþq@'ÙàîÏþq@ø£qÏþq@ðTVìÏþq@8NÓ¥Ïþq@žçÿq@¦Ïþq@§O—ëÏþq@%Œÿq@¡>ysÏþq@ÿŸ$ïÏþq@¯—ËÑþq@Xº‚¬@r@m,›ëÏþq@
+¼¦Ïþq@Ó^óÿq@°ysÏþq@ÔìÌÑþq@·OaïÏþq@ÆOƒ¬@r@%–$ïÏþq@ÅÁÑþq@t©6h¬@r@o°qÏþq@Ew¦Ïþq@Õ~ ïÏþq@†°³’ÿq@ÎKÂÑþq@†%ïÏþq@#QÊh¬@r@©qÏþq@ï‚ ïÏþq@}œ¦Ïþq@:ð¶’ÿq@,W=£Üþq@6}sÏþq@¼ØÆîÏþq@;lÔ¥Ïþq@/¨’ÿq@“ßqÏþq@È,îÏþq@Hô1™ ÿq@l?™ ÿq@ú@]4Ñ¨@¥™ürÏþq@éÑ%4Ðþq@—&4Ðþq@D„v™ ÿq@xÊÑþq@ª&ïÏþq@N"æg¬@r@l¢¦Ïþq@¾E¸’ÿq@’‹qÏþq@ZåïÏþq@ÜÞ9£Üþq@á}sÏþq@µÚÿÐþq@þîÏþq@Ùv¶•ÿq@8¦qÏþq@ýÛ¥Ïþq@Qù%ïÏþq@U}ÌÑþq@çVgZ¬@r@œ?	ïÏþq@Ýâ»•ÿq@‰OqÏþq@;Ì¦Ïþq@£„|Lš r@÷4øÌ–@$Œ3Ì–@«Ù¶ÄÌ–@mé± År@bEIÅr@ìQ§År@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@ï<ÞoÏþq@Å<ÞoÏþq@Ÿ‹ÞoÏþq@!ìpÏþq@Õ;ÉÑþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@=ÞoÏþq@Ø<ÞoÏþq@üŒÞoÏþq@ëbpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@=ÞoÏþq@Ù<ÞoÏþq@¢ŒÞoÏþq@¦jpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@ò<ÞoÏþq@À<ÞoÏþq@.ŒÞoÏþq@-pÏþq@¼½þÐþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@C=ÞoÏþq@@ðÞoÏþq@&õ”pÏþq@Ô¤ÄîÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@A=ÞoÏþq@ùæÞoÏþq@qúpÏþq@ÒÞvpÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@F=ÞoÏþq@ôÞoÏþq@Ì¶ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@=ÞoÏþq@^=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Vã¦Üþq@ÖÄƒsÏþq@ƒîîîÏþq@r€üpÏþq@§¨ïÏþq@ ¦ƒ¥Ïþq@{âCÛþq@ÖÔ|£Üþq@ÿ±sÏþq@tÈØîÏþq@®s¥Ïþq@·ODÛþq@ cþpÏþq@ï˜ðêÏþq@’ý~žÜþq@øâˆsÏþq@ÖàòþÐþq@¹ÀëÏþq@Ñ×âÿq@ö¯qÏþq@Ò…y¦Ïþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@É<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@RBÞoÏþq@Æ<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@àáoÏþq@SAÞoÏþq@Æ<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@…‚íqÏþq@Û&áoÏþq@Á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@B=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@²ïÞoÏþq@R=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Éh¦pÏþq@èÊÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@žÃ«ÿq@PÄßoÏþq@Ã<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@D=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@‘îÞoÏþq@Q=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@	/¥pÏþq@9ÊÞoÏþq@=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Dê§ÿq@-åoÏþq@Ò<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Æ<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@BÞoÏþq@Å<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@§–àoÏþq@BÞoÏþq@Å<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À×¢qÏþq@ùLàoÏþq@Ï<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ì<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@ãDÞoÏþq@Ï<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@!àoÏþq@vMÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@/Ñ_pÏþq@¡¾ßoÏþq@Á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Í<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@oBÞoÏþq@Å<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@.cÞoÏþq@S=ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@È<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@à<ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ð<ÞoÏþq@¿<ÞoÏþq@Ð<ÞoÏþq@¿<ÞoÏþq@È<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@F=ÞoÏþq@À<ÞoÏþq@Ò<ÞoÏþq@À<ÞoÏþq@—?ÞoÏþq@Ã<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@˜?ÞoÏþq@Ã<ÞoÏþq@Â<ÞoÏþq@¿<ÞoÏþq@F=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Å<ÞoÏþq@¿<ÞoÏþq@Á<ÞoÏþq@¿<ÞoÏþq@É<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Â<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@ý<ÞoÏþq@
+¡àoÏþq@ÊDÞoÏþq@{àoÏþq@*DÞoÏþq@ì¯àoÏþq@BÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@#?ÞoÏþq@T~7pÏþq@ß°ÞoÏþq@€åoÏþq@&IÞoÏþq@y½åpÏþq@ 4àoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@%IÞoÏþq@…½åpÏþq@!4àoÏþq@°¾ßoÏþq@?ÞoÏþq@z7pÏþq@Ý°ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@ËCÞoÏþq@NàoÏþq@xAÞoÏþq@ñÉàoÏþq@=ÞoÏþq@ËàoÏþq@WBÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@á<ÞoÏþq@øMÞoÏþq@î<ÞoÏþq@(FÞoÏþq@Î<ÞoÏþq@ÏDÞoÏþq@Ò<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ð>ÞoÏþq@ùDÞoÏþq@Ô<ÞoÏþq@º¼ßoÏþq@Á>ÞoÏþq@¨ßoÏþq@>ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@‰@ÞoÏþq@€ÑßoÏþq@œ4pÏþq@«cÞoÏþq@y~pÏþq@pÏïÏþq@¡dÞoÏþq@7pÏþq@Â­ÒÑþq@·>ÞoÏþq@ÒpßoÏþq@
+$ÙpÏþq@Æ<ÞoÏþq@AÞoÏþq@LAàoÏþq@ÜpÏþq@ÀxsÏþq@¿<ÞoÏþq@Æ<ÞoÏþq@…AÞoÏþq@9rßoÏþq@˜pÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Æ<ÞoÏþq@Ê>ÞoÏþq@·bÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@×<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Þõ*ïÏþq@	@–¬@r@§‡¢Ñþq@s.ïpÏþq@s[–¥Ïþq@­½|sÏþq@}ÄKïÏþq@ÒÌÎ¢¬@r@à¬Ñþq@ÐþÓëÏþq@™¦|sÏþq@c®KïÏþq@÷ìépÏþq@®È”¥Ïþq@©°qÏþq@ï‘ÇÑþq@ÄysÏþq@Úýý¥Ïþq@øøœÛþq@8Ê(ïÏþq@©¾Mÿq@\qysÏþq@õ‰ÁëÏþq@ïqÏþq@{k'ïÏþq@@¥½cÿq@Ï†¦Ïþq@3ëž›àþq@dyÑþq@yqÏþq@Ó‡¯ìÏþq@T@ïÏþq@õ‹$!¨@r@ºÙUQr@¾¡µ¦Ïþq@<pÏþq@×¢Ô³Ïþq@›dtpÏþq@'&ïoÏþq@‚¨­tÏþq@Õ1pÏþq@ÊP‹‘Ïþq@kÆs‘Ïþq@«,†°Ïþq@¾ÐipÏþq@¤°pÏþq@ž t‘Ïþq@È2ïoÏþq@¶ÌÃtÏþq@fj~°Ïþq@Z!pÏþq@…y‘Ïþq@i%y‘Ïþq@zÿ pÏþq@EãtÏþq@©óoÏþq@ÔÌpÏþq@4çpÏþq@à3ÌqÏþq@THpÏþq@b¼ÚpÏþq@R©ÊqÏþq@$ƒ=Ðþq@û‚pÏþq@	pÏþq@DœÇqÏþq@Ÿ‚pÏþq@ß!¬qÏþq@ŠÎÃpÏþq@&¦— Ðþq@Ô˜_‘Ïþq@ÇlpÏþq@ üÁ±Ïþq@FïoÏþq@ÆaÌtÏþq@Ò¹pÏþq@£s‘Ïþq@pÏþq@¢•Ô³Ïþq@ctpÏþq@Ž%ïoÏþq@. ­tÏþq@´0pÏþq@ã‹‘Ïþq@ù±pÏþq@?s}°Ïþq@V‚v‘Ïþq@Ÿ´pÏþq@”^s‘Ïþq@gïoÏþq@»¾tÏþq@ÁÆs‘Ïþq@ª †°Ïþq@ZáipÏþq@)±pÏþq@t¹s‘Ïþq@w)ïoÏþq@såÂtÏþq@ÅÓÀpÏþq@ŸßqÏþq@aôÏþq@!pÏþq@
+pÏþq@Ë²
+pÏþq@¬+ÙqÏþq@
+ßqÏþq@ýÊÀpÏþq@¢aôÏþq@B!pÏþq@±¾
+pÏþq@Ø
+pÏþq@m
+ßqÏþq@´"ÒqÏþq@ØqÏþq@¬ vôÏþq@6#pÏþq@/ 
+pÏþq@ž
+pÏþq@‹ûÀpÏþq@r!pÏþq@–w°Ïþq@!Ë|‘Ïþq@Î4x‘Ïþq@~ñ pÏþq@åÑàtÏþq@´‡óoÏþq@² ”$Ûþq@ñ«P r@‚=€ºcÿq@K{("À(r@K7Mÿq@g?0#rÿq@O#PœÜþq@âÙ$Ûþq@¸uŽºcÿq@0hT r@<%À(r@¬š7#rÿq@­ÔMÿq@ªE_œÜþq@ë!	 r@¾Ö¸»cÿq@Úµ¶@r@#[Ø%Ûþq@+FÀ¿(r@D9F"rÿq@ým/Mÿq@=¥–$Ûþq@Ù­À(r@Û‡ºcÿq@	!• r@— GKÿq@0ž#rÿq@B¯RœÜþq@¢lÃ$Ûþq@™bïÀ(r@¦GŸ r@™Œšºcÿq@r²&#rÿq@ °ÆKÿq@	N^œÜþq@ô“–$Ûþq@Çîuºcÿq@+íN r@û	À(r@4ýRœÜþq@uç!Mÿq@ì	#rÿq@ä¢‘$Ûþq@!ÔG r@+qºcÿq@ªÓ0À(r@ˆNœÜþq@is#rÿq@”ñMÿq@âhè¼cÿq@N!ö% r@@ró·¬@r@•øš-Ûþq@g¶[À(r@ˆ<Oÿq@¹ôÍ1rÿq@cÞîÕþq@´ž4Ôþq@5Îªµar@¡x4Ôþq@v¤¨q. r@Ótâ¹Ñþq@ž§¥q. r@ŠüîÕþq@W±4Ôþq@ºÌI¸ar@Ä»4Ôþq@6Ž¬q. r@;ƒâ¹Ñþq@Ô´q. r@ÉYîÕþq@ˆ ÇÃar@#Ì4Ôþq@Yí4Ôþq@÷¼q. r@”õÅq. r@îzâ¹Ñþq@˜}˜$Ûþq@‚6 r@8Órºcÿq@õ*jÀ(r@ÌqUœÜþq@{CMÿq@£=þ"rÿq@%b,¾cÿq@mQ&' r@!sÕi­@r@¨‹Ý-Ûþq@_×Õ€À(r@þg»2rÿq@²ABPÿq@w¬è$Ûþq@þ¬|ºcÿq@cY6 r@¶ª$À(r@}oœÜþq@o+#rÿq@I–Mÿq@r^‘Ïþq@AÇlpÏþq@áÂ±Ïþq@«ïoÏþq@ÅÍtÏþq@¦¹pÏþq@žís‘Ïþq@‚pÏþq@«‰}°Ïþq@º	w‘Ïþq@§³pÏþq@S'ïoÏþq@…¯s‘Ïþq@Á¡¿tÏþq@ÅD(pÏþq@8Ž¡°Ïþq@¬Š‘Ïþq@*À(pÏþq@þÒ…‘Ïþq@LcüoÏþq@CF€uÏþq@³lF	 r@Æ»cÿq@ùÊð¾¶@r@ °Ø%Ûþq@>­ŸÍ¿(r@}ìr"rÿq@íAMÿq@½¬Ñ¾cÿq@•Ãî* r@€g”­@r@	Ðî-Ûþq@v›ƒÁ(r@% ²Oÿq@òè;rÿq@µ=¬cÿq@#. r@Uwû­©@r@p·+Ûþq@È‘¼È(r@î+öHrÿq@t/Ï[ÿq@—TÐþq@µ•)pÏþq@&õãqÏþq@Ð¹&pÏþq@õÓ(pÏþq@Î&pÏþq@þÖpÏþq@?úÄ Ðþq@÷pÏþq@x®qÏþq@>öpÏþq@EÜÃpÏþq@Y›pÏþq@øspÏþq@x’ÿpÏþq@)ÏrÏþq@ÈÞGÐþq@Ót2pÏþq@rÏþq@ °/pÏþq@vy0pÏþq@±pÏþq@ÆrÏþq@XüFÐþq@/ópÏþq@IpÏþq@»ÌqÏþq@ÄpÏþq@'ÄpÏþq@LÐþq@ÓÂ»qÏþq@›ÙpÏþq@“ÖpÏþq@v{ÄqÏþq@¶VpÏþq@^!Ûþq@“F
+É(r@ßžÕ r@ÍØÙ¬cÿq@Àu?Xÿq@ì—Üþq@w{;rÿq@¶¼
+!Ûþq@[V]ÞÈ(r@gâ# r@ÓþÕ¬cÿq@4ƒ—Üþq@ìóëWÿq@ßÆ1;rÿq@oÈ€½cÿq@§M§ˆÁ(r@=3ýÁ­@r@ç¬à$Ûþq@0qB r@Ók-rÿq@I—œÜþq@ÏµŽá­@r@gØØMÿq@Þœ,—Á(r@”æ$Ûþq@†k¬ r@i$šœÜþq@üu¦-rÿq@Ãÿ¦cÿq@S¨ZÅ(r@õÒÂSÿq@Ö2"Ûþq@N r@\ð9—Üþq@J?ß1rÿq@|t«tÛþq@/ØD.Or@¦ÃyœÛþq@šaÎÛþq@évèšàþq@ïœêþq@iþCÛþq@	ïîuÛþq@-'/Or@)¢ÏÛþq@L*ÈžÛþq@CŽêþq@î–œàþq@C9EÛþq@ñ˜¡tÛþq@é&¦*Or@[U×ÍÛþq@ÜóSœÛþq@<YÊCÛþq@†BÿŒêþq@ò„Þšàþq@ÚÚtÛþq@9KVœÛþq@í+ÒÍÛþq@;©*Or@‡ûÉCÛþq@•ðšàþq@ø°ûŒêþq@0c}uÛþq@KtXÎÛþq@GGÛþq@Ö[,Or@hÎzDÛþq@ZáÓêþq@r²Œ›àþq@£r˜tÛþq@‚Êe)Or@ÜhœÛþq@'ˆVÎÛþq@ ÿÃšàþq@h}øŒêþq@ÚšõCÛþq@ƒð˜tÛþq@%‡{)Or@h WÎÛþq@½~iœÛþq@!ùŒêþq@fŒÄšàþq@»;öCÛþq@9„–tÛþq@²@
+(Or@Ô¯dœÛþq@gMÎÛþq@Ù½¾šàþq@ùîCÛþq@ÛËâŒêþq@çœtÛþq@ò)Or@H8mœÛþq@^ÈZÎÛþq@Èšàþq@¬úCÛþq@,ûŒêþq@`9áuÛþq@ëýÔ0Or@J†•ÏÛþq@T§ºžÛþq@f<%Žêþq@ 0EÛþq@)™õ›àþq@tgãuÛþq@á±I.Or@œ„žÏÛþq@à‚¾žÛþq@8ƒ4Žêþq@f 8EÛþq@1÷›àþq@ó>jÎÛþq@*rœÛþq@Þg-’ÿq@Ð­tÛþq@l×[/Or@ÙY`Œêþq@Ôäášàþq@ÈIûœÛþq@s"Ñ“ÿq@RïyÍÛþq@›]ótÛþq@ÿïiOr@j®›àþq@È°z‘êþq@aÁ‹ÃÛþq@÷XçaÛþq@Ú†ÖëÛþq@†p’Ûþq@þIæhQr@äŠ¯êþq@6ýz¸àþq@W™zÛþq@i0ÔÛþq@ZýÝmQr@×D£Ûþq@’©½IÛþq@‡‹u¢àþq@z@N—êþq@Uü^zÛþq@ÜœQQr@+Ø€ÓÛþq@!SÔ¢Ûþq@:-6¢àþq@á|IÛþq@4$ü—êþq@{t¹›àþq@û§”ÿq@s]œfOr@Ã"(uÛþq@¤¯÷ÎÛþq@¾ÂcDÛþq@ï…Žêþq@‹§jOr@–íœÛþq@SžÒ“ÿq@V2uÛþq@±yÎÛþq@íhCêþq@;Š]DÛþq@vž·àþq@§Aáÿq@ybtÂÛþq@Ù…W‘Ûþq@é×ëÛþq@Ù¬°­êþq@ÇRÓ`Ûþq@);
+
+boundaryField
+{
+    ground
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    walls
+    {
+        type            zeroGradient;
+    }
+    internalPatch
+    {
+        type            internal;
+    }
+    procBoundary1to0
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+226
+(¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@×<ÞoÏþq@a=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@`=ÞoÏþq@ºbÞoÏþq@_¶ÞoÏþq@_¶ÞoÏþq@a=ÞoÏþq@À<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Á<ÞoÏþq@›?ÞoÏþq@*ßoÏþq@¤pÏþq@¤pÏþq@àcpÏþq@àcpÏþq@ßoÏþq@-‹ÁpÏþq@W¡õÏþq@W¡õÏþq@W¡õÏþq@,âqÏþq@kkàoÏþq@œÛqÏþq@/§´õÏþq@/§´õÏþq@/§´õÏþq@ÅÁpÏþq@3ßoÏþq@6ƒpÏþq@6ƒpÏþq@r„‘Ïþq@ÝÂ†°Ïþq@ÝÂ†°Ïþq@jf…‘Ïþq@hžpÏþq@r4ïÏþq@šÞ‡¼cÿq@+³f­@r@ˆª r@¶Þ¢Ñþq@÷5_pÏþq@JÞoÏþq@Ú<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@À<ÞoÏþq@;=ÞoÏþq@eßoÏþq@:ÄßoÏþq@ã>ÞoÏþq@Á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@vÛysÏþq@‹€œÜþq@$°(pÏþq@š•vpÏþq@š•vpÏþq@4(pÏþq@6ƒpÏþq@édÞoÏþq@Û<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@ódÞoÏþq@¤pÏþq@¤pÏþq@àcpÏþq@àcpÏþq@ÌdÞoÏþq@/>ÞoÏþq@Ä<ÞoÏþq@C@ÞoÏþq@Æ<ÞoÏþq@;@ÞoÏþq@Å<ÞoÏþq@>ÞoÏþq@Á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@Ù<ÞoÏþq@Á<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@¿<ÞoÏþq@6ƒpÏþq@Í,pÏþq@/§´õÏþq@{pÏþq@W¡õÏþq@);
+    }
+    procBoundary1to2
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+179
+(z¹â‰Ïþq@SŒ™pÏþq@‡öÞoÏþq@¡Å!pÏþq@ó{¡rÏþq@îµp•Ôþq@†]Xdçþq@TÂŽÖþq@»|€5Öþq@;s„ÂÏþq@*²x$Ðþq@.2øqÏþq@.2øqÏþq@Eh63Ðþq@‘ß<4Ôþq@ØF2œ ÿq@8}T4Ôþq@1Ðþq@1Ðþq@\7[çÓþq@'‘Èk ÿq@Z7s¤ÿq@E]îk
+r@ÞMØ²µŸr@j9åÔ_z@3öüR‚@.šdR‚@IG\ýÏ‘@UD|ƒñ}r@m4Îw r@—Ÿñäþq@—Ÿñäþq@ðîïÕw r@1µòõ}r@9VµIÐ‘@œ¢ü‰@*SáSý»v@û$$v®+r@™òEþŸÿq@y÷v®+r@î©A|ü»v@“ðô‰@ÐF&ì9Ð‘@C¡ÛZô}r@aéoâw r@}^6åäþq@}^6åäþq@¥sÊÚw r@ª°²Sð}r@[²3ÝÏ‘@Ï
+^Ä
+‰@éö³½v@	û .·+r@¦ä% ÿq@~’Ð)·+r@[nÚg½v@ÂfA	‰@Í€ÁÏ‘@~¥eñ}r@ ï€¾w r@æi¢ëäþq@þGžÐþq@wqÏþq@@ÊáoÏþq@_CÞoÏþq@‹=ÞoÏþq@‹=ÞoÏþq@¾˜ÞoÏþq@ƒÍåoÏþq@KâpÏþq@¡âpÏþq@˜ÎåoÏþq@ŽÞoÏþq@™=ÞoÏþq@Õœµ†Ïþq@¬Õ‘ÍÕþq@Ï‰Kšàþq@sÆ[,÷r@¨×É3äÿq@Þ²­ r@fLü  r@’èÆ÷r@^.‘4þ^z@FÓtIR
+‰@xéÎ‘Er@kí
+ÜÃÿq@,’s@âþq@,’s@âþq@X–ÙÓÃÿq@HvÀEr@0™Øþ«r@gYbÕVÿq@pjÏšÓþq@
+Ñþq@]ÄšÓþq@ÍAÕVÿq@Y8ìø«r@Ñ£¶Er@¹ÚàÃÿq@‹<5âþq@‹<5âþq@;‡çÃÿq@¯‰±‘Er@ÜC÷Í®r@vîÀçVÿq@í3L›Óþq@ˆCÑþq@±¡Óþq@£vàöVÿq@gŽ¼ž®r@rW$ùEr@µû&ÝÃÿq@ÙUEâþq@õAƒHàþq@ƒËÑÂÏþq@FŠpÏþq@¨âÞoÏþq@¨âÞoÏþq@Ý~)pÏþq@º5¡rÏþq@¥~µ†Ïþq@%‰,üÕþq@~5üÕþq@ú…öòþq@áªoöòþq@»´'šàþq@›]#•Ôþq@²#Ð'äÿq@CdÆ¬Ÿr@e¥ ÖÌ½v@s]Æï®r@ªH÷þq@_v]9àþq@_v]9àþq@ú F÷þq@+•áàþq@ªd"Ðþq@Ýg­qÏþq@ô)c"Ðþq@L¡áàþq@³çF÷þq@-2Þ8àþq@-2Þ8àþq@”™ÖG÷þq@ip’áàþq@ô)c"Ðþq@Ýg­qÏþq@ÕÏùÐþq@Y•[áþq@³W÷þq@”håàþq@ÕÏùÐþq@ƒËÑÂÏþq@FŠpÏþq@´£×‰Ïþq@º¿‹Öþq@® ybçþq@‰&¢k
+r@‚ªX·+r@w çVÿq@ÑÓáàþq@žüößþq@žüößþq@ªd"Ðþq@Ýg­qÏþq@ÔéÑþq@½¡7¡Óþq@ó4áÖþq@öï’2Öþq@ø»Ÿÿq@°÷é ÿq@+v0›Óþq@]Íéößþq@]Íéößþq@.÷ˆÍÕþq@ùäÖþq@eÚïÓþq@ëüÙkÑþq@4
+ºÑþq@);
+    }
+    procBoundary1to3
+    {
+        type            processor;
+        value           nonuniform List<scalar> 
+665
+(&éÄœÔþq@&éÄœÔþq@ yZçþq@ yZçþq@à~jYãÿq@?H*5ór@[ç>»àþq@ØK óÕþq@ØK óÕþq@&éÄœÔþq@Ó¸òÕþq@Ó¸òÕþq@‹©»àþq@ ‹|5ór@SYãÿq@Ç[	Ò?Ÿr@¹§Õ]d
+r@¹§Õ]d
+r@¢”¹ç?Ÿr@žNØC\z@ŠïbXR‚@“ïŸHr@Lg|óþq@B-ð"Öþq@B-ð"Öþq@ÑÄMØþq@çï¿7×þq@˜A·HÜþq@góÀ7×þq@9OÆMØþq@ÈÙ!Öþq@ÈÙ!Öþq@5ê£óþq@h'MUr@ÞŽŸŸ]R‚@ª%0D\z@‹êsv‰@×‘t}±»v@7dnA¬+r@7dnA¬+r@!ÅÈD¬+r@!ÅÈD¬+r@2×>ý²»v@^Ö$˜s‰@Lª="Ð‘@-Ù} ÿÏ‘@x	•YR‚@òš#Fr@ø||óþq@²ï"Öþq@²ï"Öþq@ èÅMØþq@–ª¿ãþq@ûò¨¿ãþq@‚Ù`íîþq@QŽ©¿ãþq@'³¿ãþq@Î­ÓMØþq@7ÿä!Öþq@7ÿä!Öþq@Z$ôóþq@‚¡ƒr@l!¹AoR‚@# f\z@Q»H’DŸr@0œØüd
+r@0œØüd
+r@¯é²DŸr@rV†Îi\z@„ÞAuR‚@æ°rR‚@™ÜlÐ‘@O¢µõ}r@–Ô5Òw r@†¢ðäþq@†¢ðäþq@ëzÊw r@@q½›ñ}r@+Uç'"Ð‘@|Q#e
+‰@øU)=æ½v@%KÈ‰¸+r@€4»ùVÿq@`M,¢áþq@¼š¹àþq@¼š¹àþq@6;¢áþq@‹¡èVÿq@<5ò9®+r@±¡¹Ùd
+r@±¡¹Ùd
+r@1ñ¬+r@Þ€ÝVÿq@T<¥­áþq@¢È¢Oáþq@Û×Àáþq@f›	“ãþq@ýz²æþq@N×€æþq@Þâãþq@©6Pûàþq@µð”àþq@+<ŒÐþq@~ápÏþq@~ápÏþq@YýðÐþq@ø¯kÂÏþq@×V«pÏþq@×V«pÏþq@6ÕspÏþq@ätpÏþq@Ô®pÏþq@…Œ‰Ïþq@§^“Ôþq@ç+f	Öþq@Px]#Öþq@ßôõ"Öþq@®®.óÕþq@oÍœÔþq@oÍœÔþq@— ”çþq@”¥Šd
+r@|fªÇ¬+r@pÝVÿq@+Ê«žáþq@MÆ9¶àþq@MÆ9¶àþq@™ö«žáþq@ê±rÝVÿq@‚CÝÁ¬+r@O*·Îd
+r@ã¥fRçþq@÷ëÇ£Ôþq@÷ëÇ£Ôþq@QoóÕþq@Â;!#Öþq@lSøMØþq@¤w¶¿ãþq@êîîþq@1U‚ðîþq@Pƒ^ùîþq@U
+;Çãþq@Ö]ïNØþq@±?ö#Öþq@±?ö#Öþq@ãU]óþq@Èù¥éþr@š®êQ‚@v<ÂÏ^z@E ß¢Ÿr@7
+^o
+r@7
+^o
+r@,ïÛ¬Ÿr@6¹Wè›^z@™zòs%R‚@èFžèR‚@™WXVCÐ‘@øÛjcò}r@÷ÑÞw r@ì¥ääþq@ì¥ääþq@#LGÞw r@BaœÏñ}r@™‘Ûl0Ð‘@PiÝŠEr@%,‰ç©r@ˆýÛVÿq@ˆýÛVÿq@§¾½Fr@>áÊozÜ‹@†‚Ñy|Ü‹@€€PFr@Ý±ÜVÿq@Ý±ÜVÿq@Ô)ì©r@›ïxEr@º–|Ñï}r@E\Å{ï}r@¨ÝÔ„Er@ß%ùÿq‰@Ý‚ðIG\z@V6ór@ùZ»àþq@Žz:óÕþq@Žz:óÕþq@ää×7×þq@úC{HÜþq@Š¸¿ãþq@Íghíîþq@PVníîþq@·ãjíîþq@µ¿ãþq@Q¾HÜþq@¶sÍ7×þq@>ÃòÕþq@>ÃòÕþq@oèÙ»àþq@[.ÉZór@!Ý8]ãÿq@xþçþq@xþçþq@wÄO]ãÿq@¶/i_ór@ð„î“r@4Ø“r@b{Zór@°e«e\z@‘Ç“
+û‰@Z€±Er@î2,ŠÃÿq@+ -Bâþq@+ -Bâþq@ÕŽ’’Ãÿq@Ú^gÍ‘Er@Ï°ÀÐ®r@~h"øþq@¬r!áþq@¬r!áþq@†?[
+øþq@ía:²«r@7àc™÷»v@ŽVØCŸr@9=\ãÿq@à0ëçþq@à0ëçþq@­RcZãÿq@éWÿÉAŸr@âj‚¸¹»v@õ€ø©r@›¨5øþq@˜)‹`Ãÿq@ÕÍ•·v r@ZöÈºv r@Þ9óÃÿq@ñ5x÷þq@•i}áþq@nøõÈVÿq@‰¥‹ŸÓþq@øÛÑþq@J¥ÐÐþq@J¥ÐÐþq@÷n†Ñþq@JîžÓþq@äeÞÖþq@î“Ä/Öþq@õW‡‰Ïþq@õW‡‰Ïþq@¡ñÅØÏþq@?•µØÏþq@âk¯ÛÕþq@Ïi,×þq@èxMÜþq@,MH<×þq@uLØþq@…,ÉMØþq@‹ÉÎ7×þq@öe¼HÜþq@ù*Â7×þq@‡ü!óÕþq@‡ü!óÕþq@ZäE»àþq@çŠ¶:ór@lõ¥Zãÿq@Vç@Ÿr@¥›@¸»v@;kqù©r@»¼Œøþq@h¨Ÿþàþq@h¨Ÿþàþq@Ÿ¨‹øþq@]x±÷©r@g)É¶»v@À%©º@Ÿr@
+)ë¡ãÿq@uMEór@ú»»àþq@EÁcóÕþq@EÁcóÕþq@h8×þq@‡×ÂHÜþq@å½8×þq@kI±¿ãþq@,çÊ¿ãþq@§˜IÜþq@Ø¬Àãþq@JªAÇãþq@f/NÜþq@N:×þq@ˆ7+õÕþq@ˆ7+õÕþq@vøyÀàþq@=*ˆÁõr@¨é‹!éÿq@ÿ=WKìþq@ÿ=WKìþq@ŒÂ©-éÿq@¦Žör@2tµ¤ÿr@¥¯xÓr@0õ”vór@I­Lq\z@·ÕFå•‰@ž'ŸEr@f¥J‚Ãÿq@Ã¦'7âþq@Ã¦'7âþq@²0íÃÿq@ÎþXøþq@:Îšžáþq@:Îšžáþq@yÂ˜†ÿq@†ÔäFr@;è£‘@ö'8*î§@7à++î§@}œ·É¤‘@ùÑ÷Fr@)Iœ†ÿq@mçŸžáþq@mçŸžáþq@†ukøþq@âb~tÃÿq@DÈ#Îw r@«*ÏÑw r@å‡)¾Ãÿq@Êªž=÷þq@ž&Ù5ªr@îzš¹»v@,ÃÆ@Ÿr@;›vYãÿq@9m{¡Ôþq@9m{¡Ôþq@sœ03×þq@8ÿ@IØþq@ŽåHØþq@S«»¿ãþq@h†}HÜþq@!×²¿ãþq@÷ÜÕMØþq@4yÖMØþq@­ÇÏ7×þq@ÅÒœÔþq@ÅÒœÔþq@ÅÒœÔþq@išw»àþq@]i÷óþq@Ídñóþq@ÃŒ»àþq@¤0‹¡Ôþq@¤0‹¡Ôþq@Ëôå¶àþq@z`,<ór@MÐK\z@êš‰@ßÅœ×ŒEr@i¢Ñ»~r@ÁÀ„­~r@Š ¹ØŒEr@'Ž7ªr@à79â´»v@r›uv¬+r@ÒK^ñŸÿq@ S Óþq@xÿ·ÈVÿq@—(áõàþq@ô¦;÷ßþq@ô¦;÷ßþq@¿Ðõàþq@XÁÈVÿq@éK Óþq@ HzèŸÿq@h“‡ÿq@yT0‰Öþq@”I.çþq@=ÉV“Ôþq@=ÉV“Ôþq@ÖÁ­ÛÕþq@‚×=Öþq@rM?Öþq@Xžv4Øþq@84Ããþq@HÙìîþq@‡Wº¾ãþq@§ü§¿ãþq@ƒUZíîþq@Êg­¿ãþq@UÝÆMØþq@kÏñ"Öþq@kÏñ"Öþq@XÄƒóþq@‹Â Mr@õPZR‚@Ú«zbH\z@gŒÈ§x‰@bxEr@Oë°tÃÿq@‚ü°Aâþq@‚ü°Aâþq@–yªtÃÿq@üé°vEr@ÆÊ‡v‰@Amo9E\z@x£O{WR‚@ÐsàJr@LÀ«óþq@ˆµ#Öþq@ˆµ#Öþq@SŒçMØþq@e­ÇMØþq@&té7×þq@¹¹Ñ£Ôþq@þî:8×þq@ì	/NØþq@ª*OØþq@LýY:×þq@& &ÓÔþq@& &ÓÔþq@& &ÓÔþq@c0Âàþq@á·óþq@,ºóþq@ÖË„¼àþq@¹¹Ñ£Ôþq@i%£ãÿq@±Ü :BŸr@.Îð¸»v@
+¹+ñ©r@õº]øþq@ß«—þàþq@ß«—þàþq@ë&¶àþq@ë&¶àþq@ê
+›žáþq@üá)ÜVÿq@{ª£S¬+r@]î‡€Ü‹@é-ÀP‚î§@rQ4“ü½¥@5_ü½¥@Hd3î§@›Í…}Ü‹@ÄF¬+r@3 ÜVÿq@ÙŸžáþq@<û-¶àþq@<û-¶àþq@®¥þàþq@€<¯Aâþq@‚ðäþq@Üêãðäþq@Ô@âþq@úQß5àþq@úQß5àþq@³ž=÷þq@µ¬è5ªr@#É	Ž¹»v@z(lc¬+r@÷ƒJe
+r@€/AŸr@…:Dãÿq@Ÿc.Cór@Ÿ^æàþq@5ŒY	Öþq@5ŒY	Öþq@Í:<×þq@5MÜþq@Ê&*×þq@wˆt4Øþq@mR/Ããþq@¢Ñìîþq@"#Síîþq@ˆ¨¿ãþq@¥¹ÄMØþq@Öð"Öþq@Öð"Öþq@'ûzóþq@óGr@ÍâÿWR‚@MXâ«#Ð‘@Û*R9%Ð‘@õ¥?™ï}r@°óŽÎw r@éÄðäþq@éÄðäþq@ªá‰Îw r@“Qï‘ï}r@“}}R$Ð‘@o3uæ!Ð‘@ÙÒïˆMR‚@äë"7r@¼Ï‰óþq@¼rù"Öþq@¼rù"Öþq@~©KóÕþq@~©KóÕþq@¹¹Ñ£Ôþq@•CRçþq@•CRçþq@gŠ³d
+r@{ª£S¬+r@üá)ÜVÿq@ê
+›žáþq@ë&¶àþq@gŠ³d
+r@O[lW¬+r@O[lW¬+r@p´¡à€Ü‹@À«0‚î§@QŽ–2ü½¥@òµ>Cî§@YeË§|Ü‹@èêxE¬+r@èêxE¬+r@‘-ú^d
+r@‘-ú^d
+r@ÄF¬+r@3 ÜVÿq@ÙŸžáþq@<û-¶àþq@®¥þàþq@€<¯Aâþq@‚ðäþq@Üêãðäþq@Ô@âþq@€o)¾Ãÿq@ê¤ë„Er@U8Žøq‰@tÛ>G\z@¥òÉ£YR‚@U×Gr@šóþq@ÃWP#Öþq@ÃWP#Öþq@¥ÓdLØþq@U5¯¾ãþq@§Üœ¿ãþq@%·HÜþq@%Ý¿7×þq@]4 óÕþq@]4 óÕþq@ËW>»àþq@cÒ”4ór@¯äO_C\z@„
+s‰@]‰!tEr@š3+„ï}r@!ðlÎw r@Úðäþq@Úðäþq@¨cÎw r@õUoï}r@8ôivEr@È{Þàt‰@Û&‹A\z@âYDór@½–›»àþq@z’£ãÿq@eå`tAŸr@ÏÞ}Sµ»v@Q×µî©r@œ+ÜVÿq@œ+ÜVÿq@ÜÊ2Fr@Ÿâ*¥‘@%ØFr@ÜVÿq@ÜVÿq@_:ë©r@Æœ%±²»v@S"Ÿá?Ÿr@DgYãÿq@ù•[çþq@ù•[çþq@p‹pYãÿq@î:ûë?Ÿr@(ñY³»v@dAì©r@Kikøþq@£ë}tÃÿq@éò"Îw r@pãÍÑw r@Mîã{ï}r@
+ÕA%ÿÏ‘@}MÆO"Ð‘@$ª½ƒXR‚@áHr@›¾oóþq@Òè"Öþq@Òè"Öþq@Dõ¸MØþq@å¨À7×þq@Á!ÅœÔþq@Á!ÅœÔþq@Á!ÅœÔþq@½}?»àþq@ˆK5ór@JÄ¤ÿC\z@¥ƒó¨s‰@Ô2ÿwEr@B’ãÑï}r@ò"óÕþq@ò"óÕþq@€njøþq@É
+stÃÿq@/Ž¯Aâþq@/Ž¯Aâþq@K]xtÃÿq@Û»løþq@àÂŸžáþq@àÂŸžáþq@á ¦†ÿq@µŸžáþq@µŸžáþq@Ãš-¶àþq@Ë^¥þàþq@Ë^¥þàþq@Ãš-¶àþq@Ãš-¶àþq@/´-óÕþq@/´-óÕþq@‘²3"Öþq@ Ð#Öþq@ªÝõôÕþq@ªÝõôÕþq@ Ð#Öþq@‘²3"Öþq@—	³e¬+r@6•1¯d
+r@¦O¶çþq@¦O¶çþq@9m{¡Ôþq@FîÕþq@FîÕþq@wÖþq@Öþq@
+îíÕþq@Ø2×þq@¤0‹¡Ôþq@d
+æ7×þq@ÿGóÕþq@6µü"Öþq@Sˆþ"Öþq@­.óÕþq@­.óÕþq@Sˆþ"Öþq@6µü"Öþq@ÿGóÕþq@
+îíÕþq@Öþq@/kãóþq@B”zQr@à]HYR‚@b/iv$Ð‘@m›2#Ð‘@0F¡ˆ‰@+Ðl)G\z@ÄÔÐ@Ÿr@6•1¯d
+r@Ëô4Yãÿq@ã>q6ór@þ†:·àþq@ï8óþq@wÖþq@Õ¼Lr@KöëƒWR‚@);
+    }
+}
+
+
+// ************************************************************************* //

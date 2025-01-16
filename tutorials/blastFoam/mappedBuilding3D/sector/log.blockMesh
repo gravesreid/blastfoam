@@ -1,0 +1,145 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : blockMesh
+Date   : Jan 15 2025
+Time   : 09:22:31
+Host   : "mail-18"
+PID    : 109904
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Using #calcEntry at line 20 in file "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict"
+Using #codeStream with "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_e7fc526044ce420ce9c2d16c9670c8753d538bd0.so"
+Creating new library in "dynamicCode/_e7fc526044ce420ce9c2d16c9670c8753d538bd0/platforms/linux64GccDPInt32Opt/lib/libcodeStream_e7fc526044ce420ce9c2d16c9670c8753d538bd0.so"
+"/opt/openfoam9/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_e7fc526044ce420ce9c2d16c9670c8753d538bd0/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_e7fc526044ce420ce9c2d16c9670c8753d538bd0"
+wmake libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_e7fc526044ce420ce9c2d16c9670c8753d538bd0
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_e7fc526044ce420ce9c2d16c9670c8753d538bd0/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_e7fc526044ce420ce9c2d16c9670c8753d538bd0.so
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Opening cached dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_e7fc526044ce420ce9c2d16c9670c8753d538bd0.so"
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Using #calcEntry at line 21 in file "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict"
+Using #codeStream with "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_9aac621569ba907342bfb31ce8a3068fa16bd21b.so"
+Creating new library in "dynamicCode/_9aac621569ba907342bfb31ce8a3068fa16bd21b/platforms/linux64GccDPInt32Opt/lib/libcodeStream_9aac621569ba907342bfb31ce8a3068fa16bd21b.so"
+"/opt/openfoam9/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_9aac621569ba907342bfb31ce8a3068fa16bd21b/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_9aac621569ba907342bfb31ce8a3068fa16bd21b"
+wmake libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_9aac621569ba907342bfb31ce8a3068fa16bd21b
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_9aac621569ba907342bfb31ce8a3068fa16bd21b/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_9aac621569ba907342bfb31ce8a3068fa16bd21b.so
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Opening cached dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_9aac621569ba907342bfb31ce8a3068fa16bd21b.so"
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Using #calcEntry at line 22 in file "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict"
+Using #codeStream with "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_44718ac69cb175a044d7b663323a869a1888e646.so"
+Creating new library in "dynamicCode/_44718ac69cb175a044d7b663323a869a1888e646/platforms/linux64GccDPInt32Opt/lib/libcodeStream_44718ac69cb175a044d7b663323a869a1888e646.so"
+"/opt/openfoam9/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_44718ac69cb175a044d7b663323a869a1888e646/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_44718ac69cb175a044d7b663323a869a1888e646"
+wmake libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_44718ac69cb175a044d7b663323a869a1888e646
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_44718ac69cb175a044d7b663323a869a1888e646/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_44718ac69cb175a044d7b663323a869a1888e646.so
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Opening cached dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_44718ac69cb175a044d7b663323a869a1888e646.so"
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Using #calcEntry at line 23 in file "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict"
+Using #codeStream with "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f7b41f6f4d282053bada451e20e18452687fdfda.so"
+Creating new library in "dynamicCode/_f7b41f6f4d282053bada451e20e18452687fdfda/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f7b41f6f4d282053bada451e20e18452687fdfda.so"
+"/opt/openfoam9/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_f7b41f6f4d282053bada451e20e18452687fdfda/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_f7b41f6f4d282053bada451e20e18452687fdfda"
+wmake libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_f7b41f6f4d282053bada451e20e18452687fdfda
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_f7b41f6f4d282053bada451e20e18452687fdfda/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_f7b41f6f4d282053bada451e20e18452687fdfda.so
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Opening cached dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f7b41f6f4d282053bada451e20e18452687fdfda.so"
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Using #calcEntry at line 24 in file "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict"
+Using #codeStream with "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_b80f72367ffa02d08eb72760d4fe272de294c1b4.so"
+Creating new library in "dynamicCode/_b80f72367ffa02d08eb72760d4fe272de294c1b4/platforms/linux64GccDPInt32Opt/lib/libcodeStream_b80f72367ffa02d08eb72760d4fe272de294c1b4.so"
+"/opt/openfoam9/etc/codeTemplates/dynamicCode/codeStreamTemplate.C" "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_b80f72367ffa02d08eb72760d4fe272de294c1b4/codeStreamTemplate.C"
+Invoking "wmake -s libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_b80f72367ffa02d08eb72760d4fe272de294c1b4"
+wmake libso /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_b80f72367ffa02d08eb72760d4fe272de294c1b4
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/_b80f72367ffa02d08eb72760d4fe272de294c1b4/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_b80f72367ffa02d08eb72760d4fe272de294c1b4.so
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Opening cached dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_b80f72367ffa02d08eb72760d4fe272de294c1b4.so"
+codeStream : dictionary:"/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/sector/system/blockMeshDict" master-only-reading:1
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject&, Foam::pointField&&, const cellShapeList&, const faceListList&, const wordList&, const Foam::PtrList<Foam::dictionary>&, const Foam::word&, const Foam::word&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 873
+    Found 1 undefined faces in mesh; adding to default patch.
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.0020003045633 .. 0.0020003045633
+        j : 0 6.98096257492e-05 0 6.98096257492e-05 
+        k : 0 6.98096257542e-05 0 6.98096257542e-05 
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 -0.0174524064373 0.982547593563) (0.999847695156 0.0174524064373 1.01745240644)
+  nPoints: 2001
+  nCells: 500
+  nFaces: 2500
+  nInternalFaces: 499
+----------------
+Patches
+----------------
+  patch 0 (start: 499 size: 500) name: wedge0
+  patch 1 (start: 999 size: 500) name: wedge1
+  patch 2 (start: 1499 size: 500) name: wedge2
+  patch 3 (start: 1999 size: 500) name: wedge3
+  patch 4 (start: 2499 size: 1) name: outlet
+  patch 5 (start: 2500 size: 0) name: defaultFaces
+
+End
+

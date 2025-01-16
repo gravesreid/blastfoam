@@ -1,0 +1,94 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : decomposePar -copyZero
+Date   : Jan 15 2025
+Time   : 09:22:46
+Host   : "mail-18"
+PID    : 110910
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Reading "decomposeParDict"
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.01 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 1000
+    Number of faces shared with processor 1 = 100
+    Number of faces shared with processor 3 = 100
+    Number of processor patches = 2
+    Number of processor faces = 200
+    Number of boundary faces = 400
+
+Processor 1
+    Number of cells = 1000
+    Number of faces shared with processor 0 = 100
+    Number of faces shared with processor 2 = 100
+    Number of processor patches = 2
+    Number of processor faces = 200
+    Number of boundary faces = 400
+
+Processor 2
+    Number of cells = 1000
+    Number of faces shared with processor 1 = 100
+    Number of faces shared with processor 3 = 100
+    Number of processor patches = 2
+    Number of processor faces = 200
+    Number of boundary faces = 400
+
+Processor 3
+    Number of cells = 1000
+    Number of faces shared with processor 0 = 100
+    Number of faces shared with processor 2 = 100
+    Number of processor patches = 2
+    Number of processor faces = 200
+    Number of boundary faces = 400
+
+Number of processor faces = 400
+Max number of cells = 1000 (0% above average 1000)
+Max number of processor patches = 2 (0% above average 2)
+Max number of faces between processors = 200 (0% above average 200)
+
+Processor 0: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/processor0/0"
+Processor 1: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/processor1/0"
+Processor 2: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/processor2/0"
+Processor 3: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D/processor3/0"
+
+End
+

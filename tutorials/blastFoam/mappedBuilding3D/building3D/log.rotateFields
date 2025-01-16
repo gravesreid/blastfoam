@@ -1,0 +1,168 @@
+Invalid MIT-MAGIC-COOKIE-1 key/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : rotateFields -parallel ../axisymmetricCharge -sourceTime 1e-4 -additionalFields (rho lambda.c4) -uniform -refine
+Date   : Jan 15 2025
+Time   : 09:22:47
+Host   : "mail-18"
+PID    : 110975
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D/building3D
+nProcs : 4
+Slaves : 
+3
+(
+"mail-18.110976"
+"mail-18.110977"
+"mail-18.110978"
+)
+
+Pstream initialised with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Source: "../axisymmetricCharge" "axisymmetricCharge"
+Target: "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/mappedBuilding3D" "building3D"
+Created target mesh
+Created source mesh
+
+
+Source time: 0.0001
+Target time: 0
+
+created source meshes
+
+Source centre: (0 3.67175879984e-19 1)
+Target centre: (0 3.67175879984e-19 1)
+Source mesh size: 524
+Selecting errorEstimator: densityGradient
+Selecting fvMeshRefiner hexRefiner
+Begining refinement iterations
+
+Iteration 1
+Calulating map and rotation tensors
+
+Mapping fields
+    mapping rho
+    mapping rho.c4
+    mapping lambda.c4
+    mapping p
+    mapping T
+    mapping alpha.c4
+    mapping rho.air
+    mapping U
+
+Selected 132 cells for refinement out of 5013.
+Refined from 5013 to 5937 cells.
+Selected 0 split points out of a possible 132.
+[1] Selecting decompositionMethod scotch
+[2] Selecting decompositionMethod scotch
+[3] Selecting decompositionMethod scotch
+Maximum imbalance = 20.7343776318 %
+[0] Selecting decompositionMethod scotch
+Selecting decompositionConstraint hexRefRefinementHistory
+hexRefRefinementHistory : setting constraints to preserve refinement history
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.960080848914%
+Distributing ...
+ExecutionTime = 0.09 s  ClockTime = 1 s
+
+Iteration 2
+Calulating map and rotation tensors
+
+Mapping fields
+    mapping rho
+    mapping rho.c4
+    mapping lambda.c4
+    mapping p
+    mapping T
+    mapping alpha.c4
+    mapping rho.air
+    mapping U
+
+Selected 612 cells for refinement out of 5937.
+Refined from 5937 to 10221 cells.
+Selected 0 split points out of a possible 624.
+Maximum imbalance = 28.0500929459 %
+hexRefRefinementHistory : found refinementHistory
+Mapping the fields ...
+Distributing the mesh ...
+Successfully distributed mesh
+New max imbalance: 0.655513159182%
+Distributing ...
+ExecutionTime = 0.19 s  ClockTime = 1 s
+
+Iteration 3
+Calulating map and rotation tensors
+
+Mapping fields
+    mapping rho
+    mapping rho.c4
+    mapping lambda.c4
+    mapping p
+    mapping T
+    mapping alpha.c4
+    mapping rho.air
+    mapping U
+
+Selected 0 cells for refinement out of 10221.
+Selected 152 split points out of a possible 624.
+Unrefined from 10221 to 9157 cells.
+Maximum imbalance = 8.94397728514 %
+ExecutionTime = 0.28 s  ClockTime = 1 s
+
+Iteration 4
+Calulating map and rotation tensors
+
+Mapping fields
+    mapping rho
+    mapping rho.c4
+    mapping lambda.c4
+    mapping p
+    mapping T
+    mapping alpha.c4
+    mapping rho.air
+    mapping U
+
+Selected 0 cells for refinement out of 9157.
+Selected 0 split points out of a possible 508.
+Maximum imbalance = 8.94397728514 %
+ExecutionTime = 0.34 s  ClockTime = 1 s
+
+Iteration 5
+Calulating map and rotation tensors
+
+Mapping fields
+    mapping rho
+    mapping rho.c4
+    mapping lambda.c4
+    mapping p
+    mapping T
+    mapping alpha.c4
+    mapping rho.air
+    mapping U
+
+ExecutionTime = 0.35 s  ClockTime = 1 s
+
+Final target mesh size: 2494
+
+
+Finished
+ExecutionTime = 0.39 s  ClockTime = 1 s
+
+I/O    : uncollated
+Finalising parallel run

@@ -45,7 +45,10 @@ interpolationSchemes
     reconstruct(alpha)  vanAlbada;
     reconstruct(rho)    vanAlbada;
     reconstruct(U)      vanAlbadaV;
-    reconstruct(e)      vanAlbada;
+    reconstruct(e)      vanAlbada;    wall
+    {
+        type            zeroGradient;
+    }
     reconstruct(p)      vanAlbada;
     reconstruct(speedOfSound)      vanAlbada;
 

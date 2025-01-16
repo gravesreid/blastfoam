@@ -12,7 +12,9 @@ FoamFile
   class       dictionary;
   object      snappyHexMeshDict;
 }
+# include "../variables/wall_loc"
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
 
 castellatedMesh on;
 snap            off;
@@ -20,11 +22,23 @@ addLayers       off;
 
 geometry
 {
-    walls
+    wall
     {
-        type triSurfaceMesh;
-        file "L_Wall.stl";
-        scale 0.001;
+        type searchableBox;
+        min ($xMin $yMin $zMin);
+        max ($xMax $yMax $zMax);
+    }
+    wall2
+    {
+        type searchableBox;
+        min ($xMin2 $yMin2 $zMin2);
+        max ($xMax2 $yMax2 $zMax2);
+    }
+    wall3
+    {
+        type searchableBox;
+        min ($xMin3 $yMin3 $zMin3);
+        max ($xMax3 $yMax3 $zMax3);
     }
 };
 
@@ -61,20 +75,32 @@ castellatedMeshControls
     resolveFeatureAngle 30;
     allowFreeStandingZoneFaces false;
 
-    features
-    (
-        {
-            file  "L_Wall.extendedFeatureEdgeMesh";
-            level 0;
-        }
-    );
 
     refinementSurfaces
     {
-        walls
+        wall
         {
-            level (0 0);
-            patchInfo { type wall; }
+            level (2 2);
+            patchInfo
+            {
+                type patch;
+            }
+        }
+        wall2
+        {
+            level (2 2);
+            patchInfo
+            {
+                type patch;
+            }
+        }
+        wall3
+        {
+            level (2 2);
+            patchInfo
+            {
+                type patch;
+            }
         }
     }
 
@@ -83,7 +109,7 @@ castellatedMeshControls
     {
     }
 
-    locationInMesh (0 0 0.5);
+   locationInMesh (0 0 0.5);
 }
 
 snapControls
