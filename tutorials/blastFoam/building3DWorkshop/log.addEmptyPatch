@@ -1,4 +1,4 @@
-Invalid MIT-MAGIC-COOKIE-1 key/*---------------------------------------------------------------------------*\
+/*---------------------------------------------------------------------------*\
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
@@ -6,29 +6,14 @@ Invalid MIT-MAGIC-COOKIE-1 key/*------------------------------------------------
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 Build  : 9-b456138dc4bc
-Exec   : addEmptyPatch -parallel internalPatch internal -overwrite
-Date   : Jan 15 2025
-Time   : 16:54:51
+Exec   : addEmptyPatch internalPatch internal -overwrite
+Date   : Jan 16 2025
+Time   : 15:09:07
 Host   : "mail-18"
-PID    : 154298
+PID    : 177854
 I/O    : uncollated
 Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop
-nProcs : 6
-Slaves : 
-5
-(
-"mail-18.154299"
-"mail-18.154300"
-"mail-18.154301"
-"mail-18.154302"
-"mail-18.154303"
-)
-
-Pstream initialised with:
-    floatTransfer      : 0
-    nProcsSimpleSum    : 0
-    commsType          : nonBlocking
-    polling iterations : 0
+nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
 allowSystemOperations : Allowing user-supplied system call operations
@@ -45,6 +30,5 @@ Writing mesh to "constant"
 
 End
 
-ExecutionTime = 0.04 s  ClockTime = 0 s
+ExecutionTime = 0.1 s  ClockTime = 0 s
 
-Finalising parallel run

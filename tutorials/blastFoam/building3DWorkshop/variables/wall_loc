@@ -1,9 +1,9 @@
 /*--------------------------------*- C++ -*----------------------------------*\
   =========                 |
-  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
-   \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  dev
-     \\/     M anipulation  |
+  \      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \    /   O peration     | Website:  https://openfoam.org
+    \  /    A nd           | Version:  dev
+     \/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 FoamFile
 {
@@ -11,27 +11,27 @@ FoamFile
     format      ascii;
     class       IOobject;
     location    "include";
-    object      variables;
+    object      wall_loc;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-xMin      -4.0;
-yMin       1.5;
-zMin       0.0;
-xMax       0.0;
-yMax       2.0;
-zMax       2.0;
+xMin1      -3.9918683294179207;
+yMin1      2.4283891631596886;
+zMin1      0.0;
+xMax1      -1.944363705486555;
+yMax1      3.2306981370183894;
+zMax1      1.8695304531281096;
 
-xMin2       1.0;
-yMin2       1.5;
-zMin2       0.0;
-xMax2       4.0;
-yMax2       2.0;
-zMax2       2.0;
+xMin2      -0.5383187207506664;
+yMin2      2.9702464247322062;
+zMin2      0.0;
+xMax2      1.8682676758877248;
+yMax2      3.6063660212970685;
+zMax2      0.9797368914664745;
 
-xMin3       0.0;
-yMin3       2.5;
-zMin3       0.0;
-xMax3       1.0;
-yMax3       3.0;
-zMax3       2.0;
+xMin3      2.9259156554900043;
+yMin3      2.1385491194387267;
+zMin3      0.0;
+xMax3      4.335625494198934;
+yMax3      2.6573251569309426;
+zMax3      1.5523877240998154;
 

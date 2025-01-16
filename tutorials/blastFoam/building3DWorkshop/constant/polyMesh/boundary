@@ -14,19 +14,44 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-2
+6
 (
     ground
     {
         type            patch;
-        nFaces          625;
-        startFace       17625;
+        nFaces          1186;
+        startFace       43728;
     }
     outlet
     {
         type            patch;
-        nFaces          1625;
-        startFace       18250;
+        nFaces          1661;
+        startFace       44914;
+    }
+    wall
+    {
+        type            patch;
+        nFaces          1038;
+        startFace       46575;
+    }
+    wall2
+    {
+        type            patch;
+        nFaces          624;
+        startFace       47613;
+    }
+    wall3
+    {
+        type            patch;
+        nFaces          564;
+        startFace       48237;
+    }
+    internalPatch
+    {
+        type            internal;
+        inGroups        List<word> 1(internal);
+        nFaces          0;
+        startFace       48801;
     }
 )
 

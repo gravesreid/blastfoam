@@ -25,8 +25,8 @@ geometry
     wall
     {
         type searchableBox;
-        min ($xMin $yMin $zMin);
-        max ($xMax $yMax $zMax);
+        min ($xMin1 $yMin1 $zMin1);
+        max ($xMax1 $yMax1 $zMax1);
     }
     wall2
     {

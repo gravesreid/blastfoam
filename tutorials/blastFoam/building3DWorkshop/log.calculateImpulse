@@ -7,10 +7,10 @@
 \*---------------------------------------------------------------------------*/
 Build  : 9-b456138dc4bc
 Exec   : calculateImpulse pressureProbes
-Date   : Jan 15 2025
-Time   : 16:58:17
+Date   : Jan 16 2025
+Time   : 15:10:33
 Host   : "mail-18"
-PID    : 154715
+PID    : 177935
 I/O    : uncollated
 Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/building3DWorkshop
 nProcs : 1
@@ -23,6 +23,6 @@ Using "p" in "postProcessing/pressureProbes/0"
 Writing "impulse" to "postProcessing/pressureProbes/0"
 Using reference pressure of 101298 Pa
 
-Integrated from 0 s to 0.0035 s
+Integrated from 0 s to 0.001 s
 
 Done.
