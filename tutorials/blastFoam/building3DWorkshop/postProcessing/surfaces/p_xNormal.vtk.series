@@ -11,6 +11,17 @@
     { "name" : "0.0007/p_xNormal.vtk" ,"time" : 0.0007 },
     { "name" : "0.0008/p_xNormal.vtk" ,"time" : 0.0008 },
     { "name" : "0.0009/p_xNormal.vtk" ,"time" : 0.0009 },
-    { "name" : "0.001/p_xNormal.vtk" ,"time" : 0.001 }
+    { "name" : "0.001/p_xNormal.vtk" ,"time" : 0.001 },
+    { "name" : "0.0011/p_xNormal.vtk" ,"time" : 0.0011 },
+    { "name" : "0.0012/p_xNormal.vtk" ,"time" : 0.0012 },
+    { "name" : "0.0013/p_xNormal.vtk" ,"time" : 0.0013 },
+    { "name" : "0.0014/p_xNormal.vtk" ,"time" : 0.0014 },
+    { "name" : "0.0015/p_xNormal.vtk" ,"time" : 0.0015 },
+    { "name" : "0.0016/p_xNormal.vtk" ,"time" : 0.0016 },
+    { "name" : "0.0017/p_xNormal.vtk" ,"time" : 0.0017 },
+    { "name" : "0.0018/p_xNormal.vtk" ,"time" : 0.0018 },
+    { "name" : "0.0019/p_xNormal.vtk" ,"time" : 0.0019 },
+    { "name" : "0.002/p_xNormal.vtk" ,"time" : 0.002 },
+    { "name" : "0.0021/p_xNormal.vtk" ,"time" : 0.0021 }
   ]
 }

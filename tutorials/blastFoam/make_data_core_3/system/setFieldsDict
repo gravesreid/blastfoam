@@ -1,0 +1,61 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      setFieldsDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+# include "../variables/charge_loc"
+
+fields (alpha.c4);
+nBufferLayers 2;
+
+defaultFieldValues
+(
+    volScalarFieldValue alpha.c4 0
+);
+
+
+regions
+(
+    sphericalMassToCell // Use cylinder for 3D
+    {
+        centre $cent0;
+        p1 $p10;
+        radius $radius0;
+        mass $mass;
+        rho 1601;
+        backup
+        {
+            centre $cent1;
+            p1 $p11;
+            radius $radius1;
+        }
+        refineInternal yes;
+        level 3;
+
+        fieldValues
+        (
+            volScalarFieldValue alpha.c4    1
+        );
+    }
+
+    // patchToFace // Refine walls
+    // {
+    //     name wall;
+    //     level 3;
+    //     refineFaces yes;
+    // }
+);
+
+
+// ************************************************************************* //
