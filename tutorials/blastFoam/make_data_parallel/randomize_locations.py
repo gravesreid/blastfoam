@@ -80,7 +80,7 @@ FoamFile
                 cent = (random.uniform(-4.9, 4.9), random.uniform(-4.9, 2.0), random.uniform(0.0, 1.0))
                 p1 = (random.uniform(0.0, 2.0), random.uniform(0.0, 2.0), random.uniform(0.0, 1.0))
                 radius = random.uniform(0.1, 1.0)
-                mass = random.uniform(5.0, 30.0)
+                mass = random.uniform(5.0, 50.0)
                 f.write(f"mass      {mass};\n\n")
             else:
                 pnew = (p1[0], p1[1], 0.0)
