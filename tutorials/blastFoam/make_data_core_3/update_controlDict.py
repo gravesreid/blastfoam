@@ -32,4 +32,4 @@ def update_probe_locations(grid_file, target_file):
     print("Probe locations updated successfully.")
 
 # Example usage
-update_probe_locations('probe_grid.txt', 'system/controlDict_test')
+update_probe_locations('probe_grid.txt', 'system/controlDict')

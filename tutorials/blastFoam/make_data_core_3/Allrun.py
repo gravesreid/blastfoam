@@ -60,6 +60,7 @@ def main():
         run_command(f"cp -r postProcessing {dataset_dir}")
         run_command(f"cp -r variables {dataset_dir}")
         run_command(f"cp *.foam {dataset_dir}")
+        run_command(f"cp -r constant {dataset_dir}")
     
 
 if __name__ == "__main__":
