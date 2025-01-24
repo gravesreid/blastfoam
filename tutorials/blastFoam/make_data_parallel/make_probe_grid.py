@@ -1,8 +1,8 @@
 import numpy as np
 
 # Generate the coordinates with step size 0.1 in both x and y directions
-x = np.arange(-4.0, 4.1, 0.1)
-y = np.arange(-4.0, 4.1, 0.1)
+x = np.arange(-4.9, 5.0, 0.1)
+y = np.arange(-4.9, 5.0, 0.1)
 z = 1.0  # Constant z value
 
 # Create the grid
