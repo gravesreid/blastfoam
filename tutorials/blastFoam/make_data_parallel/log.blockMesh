@@ -1,0 +1,72 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : blockMesh
+Date   : Mar 21 2025
+Time   : 11:46:55
+Host   : "omen2"
+PID    : 2761573
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.4
+        j : 0.4
+        k : 0.5
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-5 -5 0) (5 5 5)
+  nPoints: 7436
+  nCells: 6250
+  nFaces: 19875
+  nInternalFaces: 17625
+----------------
+Patches
+----------------
+  patch 0 (start: 17625 size: 625) name: ground
+  patch 1 (start: 18250 size: 1625) name: outlet
+
+End
+

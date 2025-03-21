@@ -1,0 +1,88 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "0.0002/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+9
+(
+    ground
+    {
+        type            patch;
+        nFaces          298;
+        startFace       6551;
+    }
+    outlet
+    {
+        type            patch;
+        nFaces          85;
+        startFace       6849;
+    }
+    wall
+    {
+        type            patch;
+        nFaces          326;
+        startFace       6934;
+    }
+    wall2
+    {
+        type            patch;
+        nFaces          147;
+        startFace       7260;
+    }
+    wall3
+    {
+        type            patch;
+        nFaces          0;
+        startFace       7407;
+    }
+    internalPatch
+    {
+        type            internal;
+        inGroups        List<word> 1(internal);
+        nFaces          0;
+        startFace       7407;
+    }
+    procBoundary5to4
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          183;
+        startFace       7407;
+        matchTolerance  0.0001;
+        myProcNo        5;
+        neighbProcNo    4;
+    }
+    procBoundary5to6
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          67;
+        startFace       7590;
+        matchTolerance  0.0001;
+        myProcNo        5;
+        neighbProcNo    6;
+    }
+    procBoundary5to7
+    {
+        type            processor;
+        inGroups        List<word> 1(processor);
+        nFaces          51;
+        startFace       7657;
+        matchTolerance  0.0001;
+        myProcNo        5;
+        neighbProcNo    7;
+    }
+)
+
+// ************************************************************************* //

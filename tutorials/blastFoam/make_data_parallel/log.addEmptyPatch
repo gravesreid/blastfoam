@@ -1,0 +1,52 @@
+Invalid MIT-MAGIC-COOKIE-1 key/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : addEmptyPatch -parallel internalPatch internal -overwrite
+Date   : Mar 21 2025
+Time   : 11:46:57
+Host   : "omen2"
+PID    : 2761656
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel
+nProcs : 8
+Slaves : 
+7
+(
+"omen2.2761657"
+"omen2.2761658"
+"omen2.2761659"
+"omen2.2761660"
+"omen2.2761661"
+"omen2.2761662"
+"omen2.2761663"
+)
+
+Pstream initialised with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Added internalPatch at index 5
+
+Writing mesh to "constant"
+
+
+End
+
+ExecutionTime = 0.02 s  ClockTime = 0 s
+
+Finalising parallel run

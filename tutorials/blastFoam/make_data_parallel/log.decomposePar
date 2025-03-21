@@ -1,0 +1,144 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : decomposePar -copyZero
+Date   : Mar 21 2025
+Time   : 11:46:55
+Host   : "omen2"
+PID    : 2761580
+I/O    : uncollated
+Case   : /home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Decomposing mesh region0
+
+Reading "decomposeParDict"
+
+Create mesh
+
+Calculating distribution of cells
+Selecting decompositionMethod scotch
+
+Finished decomposition in 0.02 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+
+Processor 0
+    Number of cells = 785
+    Number of faces shared with processor 1 = 131
+    Number of faces shared with processor 3 = 70
+    Number of faces shared with processor 5 = 10
+    Number of faces shared with processor 6 = 60
+    Number of faces shared with processor 7 = 70
+    Number of processor patches = 5
+    Number of processor faces = 341
+    Number of boundary faces = 217
+
+Processor 1
+    Number of cells = 785
+    Number of faces shared with processor 0 = 131
+    Number of faces shared with processor 3 = 60
+    Number of processor patches = 2
+    Number of processor faces = 191
+    Number of boundary faces = 347
+
+Processor 2
+    Number of cells = 780
+    Number of faces shared with processor 3 = 130
+    Number of faces shared with processor 5 = 70
+    Number of processor patches = 2
+    Number of processor faces = 200
+    Number of boundary faces = 336
+
+Processor 3
+    Number of cells = 780
+    Number of faces shared with processor 0 = 70
+    Number of faces shared with processor 1 = 60
+    Number of faces shared with processor 2 = 130
+    Number of faces shared with processor 5 = 50
+    Number of processor patches = 4
+    Number of processor faces = 310
+    Number of boundary faces = 226
+
+Processor 4
+    Number of cells = 780
+    Number of faces shared with processor 5 = 130
+    Number of faces shared with processor 6 = 60
+    Number of processor patches = 2
+    Number of processor faces = 190
+    Number of boundary faces = 346
+
+Processor 5
+    Number of cells = 780
+    Number of faces shared with processor 0 = 10
+    Number of faces shared with processor 2 = 70
+    Number of faces shared with processor 3 = 50
+    Number of faces shared with processor 4 = 130
+    Number of faces shared with processor 6 = 60
+    Number of processor patches = 5
+    Number of processor faces = 320
+    Number of boundary faces = 216
+
+Processor 6
+    Number of cells = 780
+    Number of faces shared with processor 0 = 60
+    Number of faces shared with processor 4 = 60
+    Number of faces shared with processor 5 = 60
+    Number of faces shared with processor 7 = 130
+    Number of processor patches = 4
+    Number of processor faces = 310
+    Number of boundary faces = 226
+
+Processor 7
+    Number of cells = 780
+    Number of faces shared with processor 0 = 70
+    Number of faces shared with processor 6 = 130
+    Number of processor patches = 2
+    Number of processor faces = 200
+    Number of boundary faces = 336
+
+Number of processor faces = 1031
+Max number of cells = 785 (0.48% above average 781.25)
+Max number of processor patches = 5 (53.8462% above average 3.25)
+Max number of faces between processors = 341 (32.2987% above average 257.75)
+
+Processor 0: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor0/0"
+Processor 1: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor1/0"
+Processor 2: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor2/0"
+Processor 3: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor3/0"
+Processor 4: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor4/0"
+Processor 5: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor5/0"
+Processor 6: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor6/0"
+Processor 7: copying "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/0"
+ to "/home/reid/OpenFOAM/blastfoam/tutorials/blastFoam/make_data_parallel/processor7/0"
+
+End
+

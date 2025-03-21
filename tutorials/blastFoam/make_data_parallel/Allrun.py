@@ -14,7 +14,7 @@ def run_command(command):
         exit(1)
 
 def main():
-    for i in range(200, 1700, 1):
+    for i in range(0, 500, 1):
         script_dir = os.path.dirname(os.path.abspath(__file__))
         os.chdir(script_dir)
 
@@ -53,7 +53,7 @@ def main():
         run_command("runApplication calculateImpulse pressureProbes")
 
         # copy all results and porstProcessing directory to dataset directory
-        dataset_dir = f"/home/reid/projects/blast_waves/dataset_parallel_large/{i-200}"
+        dataset_dir = f"/home/reid/projects/blast_waves/dataset_2/{i}"
         if not os.path.exists(dataset_dir):
             os.makedirs(dataset_dir)
         #run_command(f"cp -r processor* {dataset_dir}")

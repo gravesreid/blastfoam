@@ -1,0 +1,62 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       pointScalarField;
+    location    "0";
+    object      pointLevel;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    ground
+    {
+        type            calculated;
+    }
+    outlet
+    {
+        type            calculated;
+    }
+    wall
+    {
+        type            calculated;
+    }
+    wall2
+    {
+        type            calculated;
+    }
+    wall3
+    {
+        type            calculated;
+    }
+    internalPatch
+    {
+        type            internal;
+    }
+    procBoundary1to0
+    {
+        type            processor;
+    }
+    procBoundary1to2
+    {
+        type            processor;
+    }
+    procBoundary1to4
+    {
+        type            processor;
+    }
+}
+
+
+// ************************************************************************* //
